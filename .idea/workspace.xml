@@ -20,21 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41302f36-66df-452d-b712-9e6c32c89402" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/null_portfolio.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +86,7 @@
       <workItem from="1593046984847" duration="2255000" />
       <workItem from="1593049593329" duration="236000" />
       <workItem from="1593049831844" duration="452000" />
-      <workItem from="1593116824824" duration="8576000" />
+      <workItem from="1593116824824" duration="11654000" />
     </task>
     <servers />
   </component>
@@ -131,29 +122,29 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="828" y="442" key="Github.ShareDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1593049248296" />
-    <state width="1899" height="288" key="GridCell.Tab.0.bottom" timestamp="1593128155213">
+    <state width="1899" height="288" key="GridCell.Tab.0.bottom" timestamp="1593130165052">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1593128155213" />
-    <state width="1899" height="288" key="GridCell.Tab.0.center" timestamp="1593128155213">
+    <state width="1899" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1593130165052" />
+    <state width="1899" height="288" key="GridCell.Tab.0.center" timestamp="1593130165052">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="288" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1593128155213" />
-    <state width="1899" height="288" key="GridCell.Tab.0.left" timestamp="1593128155213">
+    <state width="1899" height="288" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1593130165052" />
+    <state width="1899" height="288" key="GridCell.Tab.0.left" timestamp="1593130165052">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="288" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1593128155213" />
-    <state width="1899" height="288" key="GridCell.Tab.0.right" timestamp="1593128155213">
+    <state width="1899" height="288" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1593130165052" />
+    <state width="1899" height="288" key="GridCell.Tab.0.right" timestamp="1593130165052">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="288" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1593128155213" />
+    <state width="1899" height="288" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1593130165052" />
     <state x="540" y="275" key="IDE.errors.dialog" timestamp="1593116965260">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="540" y="275" key="IDE.errors.dialog/0.0.1920.1080@0.0.1920.1080" timestamp="1593116965260" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1593125831202">
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1593131480861">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1593125831202" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1593131480861" />
   </component>
 </project>
