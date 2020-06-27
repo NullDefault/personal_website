@@ -20,17 +20,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41302f36-66df-452d-b712-9e6c32c89402" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeScreen.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomeScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,14 +61,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="D:\Development\Projects\JavaScript\null_portfolio\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Development\Projects\JavaScript\null_portfolio\src\pages" />
       <recent name="D:\Development\Projects\JavaScript\null_portfolio\src\assets" />
     </key>
   </component>
@@ -86,7 +104,11 @@
       <workItem from="1593046984847" duration="2255000" />
       <workItem from="1593049593329" duration="236000" />
       <workItem from="1593049831844" duration="452000" />
-      <workItem from="1593116824824" duration="11654000" />
+      <workItem from="1593116824824" duration="11742000" />
+      <workItem from="1593185553556" duration="2737000" />
+      <workItem from="1593204477353" duration="558000" />
+      <workItem from="1593205055863" duration="1515000" />
+      <workItem from="1593285853788" duration="4649000" />
     </task>
     <servers />
   </component>
@@ -106,6 +128,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="823" y="419" key="#ESLint" timestamp="1593185684986">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="823" y="419" key="#ESLint/0.0.1920.1080@0.0.1920.1080" timestamp="1593185684986" />
     <state x="690" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593117680413">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -122,22 +148,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="828" y="442" key="Github.ShareDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1593049248296" />
-    <state width="1899" height="288" key="GridCell.Tab.0.bottom" timestamp="1593130165052">
+    <state width="1899" height="288" key="GridCell.Tab.0.bottom" timestamp="1593287397060">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1593130165052" />
-    <state width="1899" height="288" key="GridCell.Tab.0.center" timestamp="1593130165052">
+    <state width="1899" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1593287397060" />
+    <state width="1899" height="288" key="GridCell.Tab.0.center" timestamp="1593287397060">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="288" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1593130165052" />
-    <state width="1899" height="288" key="GridCell.Tab.0.left" timestamp="1593130165052">
+    <state width="1899" height="288" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1593287397060" />
+    <state width="1899" height="288" key="GridCell.Tab.0.left" timestamp="1593287397059">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="288" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1593130165052" />
-    <state width="1899" height="288" key="GridCell.Tab.0.right" timestamp="1593130165052">
+    <state width="1899" height="288" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1593287397059" />
+    <state width="1899" height="288" key="GridCell.Tab.0.right" timestamp="1593287397060">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="288" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1593130165052" />
+    <state width="1899" height="288" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1593287397060" />
     <state x="540" y="275" key="IDE.errors.dialog" timestamp="1593116965260">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

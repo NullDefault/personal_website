@@ -6,11 +6,6 @@
       "src": "pretty-icon.png",
       "sizes": "64x64 32x32 16x16",
       "type": "image/png"
-    },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
     }
   ],
   "start_url": ".",
