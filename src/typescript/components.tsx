@@ -1,7 +1,7 @@
 import {BottomNavigation, ButtonGroup, IconButton} from "@material-ui/core";
 import {Nav} from 'react-bootstrap';
 import Navbar from 'react-bootstrap/Navbar';
-import logo from '../src/assets/null_icon.png';
+import logo from '../assets/null_icon.png';
 import EmailIcon from "@material-ui/icons/Email";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";

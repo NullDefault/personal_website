@@ -1,0 +1,12 @@
+.AboutPageWrapper{
+    padding-top: 100px;
+    padding-bottom: 75px;
+}
+
+.Photo-of-me {
+    height: 55vmin;
+    pointer-events: none;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 3px 3px 20px black;
+}

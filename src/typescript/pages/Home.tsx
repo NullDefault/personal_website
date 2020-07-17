@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../HomeScreen.css';
+import '../../static/css/HomePage.css';
 
 
 function Home() {
