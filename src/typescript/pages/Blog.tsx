@@ -2,7 +2,7 @@ import React from 'react';
 
 function Blog() {
     return (
-        <div className="HomeBackground">
+        <div className="home-background">
             <header className="HomeHeader">
                 Blog
             </header>

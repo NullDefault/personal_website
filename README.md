@@ -42,3 +42,8 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Asset Acknowledgement
+[coding](https://thenounproject.com/search/?q=coding&i=2828165) by Prashanth Rapolu from the Noun Project
+[design](https://thenounproject.com/term/design/3160558/) by Eucalyp from the Noun Project
+[coding](https://thenounproject.com/term/coding/2933328/) by Flatart from the Noun Project

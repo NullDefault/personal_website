@@ -1,12 +1,22 @@
-.AboutPageWrapper{
+.photo-wrapper {
     padding-top: 100px;
     padding-bottom: 75px;
 }
 
-.Photo-of-me {
+.photo-of-me {
     height: 55vmin;
     pointer-events: none;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 3px 3px 20px black;
+}
+
+.paper{
+    height: 2000px;
+}
+
+.paper-container{
+    height: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
