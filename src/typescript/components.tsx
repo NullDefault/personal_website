@@ -115,7 +115,6 @@ function TopNavigationBar() {
                     <Nav.Link href="home">Home</Nav.Link>
                     <Nav.Link href="about">About Me</Nav.Link>
                     <Nav.Link href="resume">Resume</Nav.Link>
-                    <Nav.Link href="blog">Blog</Nav.Link>
                     <Nav.Link href="contact">Contact Info</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
