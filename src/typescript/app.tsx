@@ -1,9 +1,9 @@
 import React from "react";
 import {BrowserRouter as Router, Redirect, Route} from "react-router-dom";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Resume from "./pages/Resume";
-import Contact from "./pages/Contact";
+import Home from "./Home";
+import About from "./About";
+import Resume from "./Resume";
+import Contact from "./Contact";
 import {Footer, TopNavigationBar} from "./components";
 
 const App = () => (

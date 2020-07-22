@@ -5,14 +5,19 @@
 
 .photo-of-me {
     height: 55vmin;
+    position: absolute;
+    top: 100px;
+    left: 100px;
     pointer-events: none;
-    margin-left: auto;
-    margin-right: auto;
     box-shadow: 3px 3px 20px black;
 }
 
 .paper{
     height: 2000px;
+}
+
+.top-spacer{
+    height: 70px;
 }
 
 .paper-container{
