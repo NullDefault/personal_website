@@ -2,7 +2,7 @@ import React from "react";
 import {BrowserRouter as Router, Redirect, Route} from "react-router-dom";
 import Home from "./Home";
 import About from "./About";
-import Resume from "./Resume";
+import ProjectGallery from "./ProjectGallery";
 import Contact from "./Contact";
 import {Footer, TopNavigationBar} from "./components";
 
@@ -15,7 +15,7 @@ const App = () => (
                 <Redirect to="/home"/>
             </Route>
             <Route path="/about" component={About}/>
-            <Route path="/resume" component={Resume}/>
+            <Route path="/project_gallery" component={ProjectGallery}/>
             <Route path="/contact" component={Contact}/>
         </div>
         <Footer/>

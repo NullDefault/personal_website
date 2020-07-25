@@ -4,7 +4,7 @@ import ai_noun_icon from "../assets/nounProjectIcons/noun_coding_2933328.svg";
 import code_noun_icon from "../assets/nounProjectIcons/noun_design_3160558.svg";
 
 
-class ImageCycle extends React.Component <{}, { currentImage: number, images: object}>{
+class ImageCycle extends React.Component <{}, { current: number, images: object}>{
     private readonly images: any[];
     private readonly cycleSpeed: number;
     private readonly timings: number[];
@@ -23,30 +23,30 @@ class ImageCycle extends React.Component <{}, { currentImage: number, images: ob
             6500
         ]
         this.state = {
-            currentImage: 0,
+            current: 0,
         };
     }
 
     switchImage() {
-        if (this.state.currentImage < this.images.length - 1) {
+        if (this.state.current < this.images.length - 1) {
             this.setState({
-                currentImage: this.state.currentImage + 1
+                current: this.state.current + 1
             });
         } else {
             this.setState({
-                currentImage: 0
+                current: 0
             });
         }
-        setTimeout(this.switchImage, this.timings[this.state.currentImage]);
-        return this.state.currentImage;
+        setTimeout(this.switchImage, this.timings[this.state.current]);
+        return this.state.current;
     }
 
     getImage(){
-        return this.images[this.state.currentImage]
+        return this.images[this.state.current]
     }
 
     componentDidMount() {
-        setTimeout(this.switchImage, this.timings[this.state.currentImage]);
+        setTimeout(this.switchImage, this.timings[this.state.current]);
     }
 
     render() {

@@ -1,69 +1,16 @@
 import {BottomNavigation, ButtonGroup, IconButton} from "@material-ui/core";
-import {Nav} from 'react-bootstrap';
+import {Nav, NavDropdown} from 'react-bootstrap';
 import Navbar from 'react-bootstrap/Navbar';
 import logo from '../assets/null_icon.png';
 import EmailIcon from "@material-ui/icons/Email";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
-import KeyboardArrowLeftIcon from '@material-ui/icons/KeyboardArrowLeft';
-import KeyboardArrowRightIcon from '@material-ui/icons/KeyboardArrowRight';
 import React from "react";
-
-function navigateRight() {
-    let currentPage = window.location.pathname;
-    switch (currentPage) {
-        case '/home':
-            window.location.href = 'about';
-            break;
-        case '/about':
-            window.location.href = 'resume';
-            break;
-        case '/resume':
-            window.location.href = 'blog';
-            break;
-        case '/blog':
-            window.location.href = 'contact';
-            break;
-        case '/contact':
-            window.location.href = 'home';
-            break;
-
-    }
-}
-
-function navigateLeft() {
-    let currentPage = window.location.pathname;
-    switch (currentPage) {
-        case '/home':
-            window.location.href = 'contact';
-            break;
-        case '/about':
-            window.location.href = 'home'
-            break;
-        case '/resume':
-            window.location.href = 'about'
-            break;
-        case '/blog':
-            window.location.href = 'resume'
-            break;
-        case '/contact':
-            window.location.href = 'blog'
-            break;
-    }
-}
-
 
 function Footer() {
     return (
         <BottomNavigation>
             children=<ButtonGroup color="default" aria-label="outlined primary button group">
-            <IconButton aria-label="Navigate Left"
-                        size='medium'
-                        onClick={() => {
-                            navigateLeft()
-                        }}>
-                <KeyboardArrowLeftIcon/>
-            </IconButton>
             <IconButton aria-label="E-Mail"
                         size='medium'
                         onClick={() => {
@@ -85,13 +32,6 @@ function Footer() {
                         }}>
                 <GitHubIcon style={{fill: "#28a745"}}/>
             </IconButton>
-            <IconButton aria-label="Navigate Right"
-                        size='medium'
-                        onClick={() => {
-                            navigateRight()
-                        }}>
-                <KeyboardArrowRightIcon/>
-            </IconButton>
         </ButtonGroup>
         </BottomNavigation>
     )
@@ -99,7 +39,12 @@ function Footer() {
 
 function TopNavigationBar() {
     return (
-        <Navbar bg="light" expand="md" fixed="top" className="Navbar">
+        <Navbar
+            bg="light"
+            expand="sm"
+            fixed="top"
+            className="Navbar"
+        >
             <Navbar.Brand href="#home">
                 <img
                     src={logo}
@@ -114,7 +59,10 @@ function TopNavigationBar() {
                 <Nav className="mr-auto">
                     <Nav.Link href="home">Home</Nav.Link>
                     <Nav.Link href="about">About Me</Nav.Link>
-                    <Nav.Link href="resume">Resume</Nav.Link>
+                    <NavDropdown title="Experience" id="collasible-nav-dropdown">
+                        <NavDropdown.Item href="resume">Resume</NavDropdown.Item>
+                        <NavDropdown.Item href="project_gallery">Project Gallery</NavDropdown.Item>
+                    </NavDropdown>
                     <Nav.Link href="contact">Contact Info</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
