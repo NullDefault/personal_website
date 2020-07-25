@@ -5,6 +5,10 @@ import About from "./About";
 import ProjectGallery from "./ProjectGallery";
 import Contact from "./Contact";
 import {Footer, TopNavigationBar} from "./components";
+import Resume from "./Resume";
+import {pdfjs} from "react-pdf";
+
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 const App = () => (
     <Router>
@@ -16,6 +20,7 @@ const App = () => (
             </Route>
             <Route path="/about" component={About}/>
             <Route path="/project_gallery" component={ProjectGallery}/>
+            <Route path="/resume" component={Resume}/>
             <Route path="/contact" component={Contact}/>
         </div>
         <Footer/>

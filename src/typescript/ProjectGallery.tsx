@@ -51,7 +51,8 @@ class ProjectGallery extends React.Component {
         this.state = {current: 0};
     }
 
-    updateTextInfo = (right: boolean) => {
+    updateTextInfo = () => {
+        let right= true;
         let last_state = this.state.current;
         let new_state;
         if(right) {
@@ -79,15 +80,16 @@ class ProjectGallery extends React.Component {
                     <Container className="project-title">
                         <h1>{this.projectsData[this.state.current].title}</h1>
                     </Container>
-                    <Container className="projectGalleryWrap">
+                    <Container className="project-image">
                         <AwesomeSlider
-                            onTransitionEnd={this.updateTextInfo}>
+                            onTransitionEnd={this.updateTextInfo}
+                            className="aws-btn">
                             {this.projectsData.map((project) => (
                                 <div data-src={project.img}/>
                             ))}
                         </AwesomeSlider>
                     </Container>
-                    <Container>
+                    <Container className={"project-description"}>
                         <Paper>
                             {this.projectsData[this.state.current].description}
                         </Paper>

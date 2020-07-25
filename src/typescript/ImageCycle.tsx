@@ -4,7 +4,7 @@ import ai_noun_icon from "../assets/nounProjectIcons/noun_coding_2933328.svg";
 import code_noun_icon from "../assets/nounProjectIcons/noun_design_3160558.svg";
 
 
-class ImageCycle extends React.Component <{}, { current: number, images: object}>{
+class ImageCycle extends React.Component <{}, { current: number}>{
     private readonly images: any[];
     private readonly cycleSpeed: number;
     private readonly timings: number[];
