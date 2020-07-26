@@ -2,7 +2,7 @@ import React from 'react';
 import AwesomeSlider from 'react-awesome-slider';
 import beeSimScreenshot from '../assets/screenshots/beesim_screenshot.gif';
 import 'react-awesome-slider/dist/styles.css';
-import '../static/css/ProjectGallery.css';
+import '../static/ProjectGallery.css';
 import Container from '@material-ui/core/Container'
 import aiScreenshot from "../assets/screenshots/ai_screenshot.gif";
 import depthsScreenshot from "../assets/screenshots/depths_screenshot.gif";
@@ -52,31 +52,31 @@ class ProjectGallery extends React.Component {
     }
 
     updateTextInfo = () => {
-        let right= true;
+        let right = true;
         let last_state = this.state.current;
         let new_state;
-        if(right) {
+        if (right) {
             if (last_state === this.projectsData.length - 1) {
                 new_state = 0;
             } else {
                 new_state = last_state + 1;
             }
-        }else{
-            if (last_state === 0){
+        } else {
+            if (last_state === 0) {
                 new_state = this.projectsData.length - 1
             } else {
                 new_state = last_state - 1;
             }
         }
         this.setState(
-            { current: new_state }
+            {current: new_state}
         )
     }
 
     render() {
         return (
             <div className="home-background">
-                <header className="HomeHeader">
+                <header className="home-header">
                     <Container className="project-title">
                         <h1>{this.projectsData[this.state.current].title}</h1>
                     </Container>

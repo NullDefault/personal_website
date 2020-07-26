@@ -3,7 +3,7 @@ import React from 'react';
 function Contact() {
     return (
         <div className="home-background">
-            <header className="HomeHeader">
+            <header className="home-header">
                 Contact
             </header>
         </div>

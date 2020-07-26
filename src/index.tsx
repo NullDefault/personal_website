@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './static/css/base.css';
-import App from './typescript/app';
+import './static/Base.css';
+import App from './app';
 import * as serviceWorker from './typescript/tests/serviceWorker';
 
 

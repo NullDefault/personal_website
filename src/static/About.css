@@ -12,15 +12,15 @@
     box-shadow: 3px 3px 20px black;
 }
 
-.paper{
+.paper {
     height: 2000px;
 }
 
-.top-spacer{
+.top-spacer {
     height: 70px;
 }
 
-.paper-container{
+.paper-container {
     height: 100%;
     padding-top: 100px;
     padding-bottom: 100px;

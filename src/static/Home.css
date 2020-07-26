@@ -4,17 +4,16 @@
     text-align: center;
 }
 
-.Navbar-logo {
+.navbar-logo {
     margin-right: 10px;
 }
 
-.Navbar {
+.navbar {
     font-size: 20px;
     box-shadow: 3px 3px 15px mediumpurple;
 }
 
-
-.HomeHeader {
+.home-header {
     padding-top: 7%;
     min-height: 100vh;
     display: flex;
@@ -25,7 +24,7 @@
     color: white;
 }
 
-.App-link {
+.app-link {
     color: #61dafb;
 }
 

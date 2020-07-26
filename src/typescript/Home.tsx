@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 import Container from '@material-ui/core/Container'
-import ImageCycle from './ImageCycle';
+import ImageCycle from './components/ImageCycle';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../static/css/HomePage.css';
+import '../static/Home.css';
 
 
 function Home() {
     return (
         <div className="home-background">
-            <header className="HomeHeader">
+            <header className="home-header">
                 <Container className="cycle-container">
                     <ImageCycle/>
                 </Container>

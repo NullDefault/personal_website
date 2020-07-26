@@ -1,13 +1,14 @@
 import React from "react";
-import sde_noun_icon from "../assets/nounProjectIcons/noun_coding_2828165.svg";
-import ai_noun_icon from "../assets/nounProjectIcons/noun_coding_2933328.svg";
-import code_noun_icon from "../assets/nounProjectIcons/noun_design_3160558.svg";
+import sde_noun_icon from "../../assets/nounProjectIcons/noun_coding_2828165.svg";
+import ai_noun_icon from "../../assets/nounProjectIcons/noun_coding_2933328.svg";
+import code_noun_icon from "../../assets/nounProjectIcons/noun_design_3160558.svg";
 
 
-class ImageCycle extends React.Component <{}, { current: number}>{
+class ImageCycle extends React.Component <{}, { current: number }> {
     private readonly images: any[];
     private readonly cycleSpeed: number;
     private readonly timings: number[];
+
     constructor({props}: { props: any }) {
         super(props);
         this.switchImage = this.switchImage.bind(this);
@@ -41,7 +42,7 @@ class ImageCycle extends React.Component <{}, { current: number}>{
         return this.state.current;
     }
 
-    getImage(){
+    getImage() {
         return this.images[this.state.current]
     }
 
@@ -52,11 +53,11 @@ class ImageCycle extends React.Component <{}, { current: number}>{
     render() {
         return (
             <div className="slideshow-container">
-            <object data={ this.getImage() } type="image/svg+xml" className="noun-icon">
-                <img src={ this.getImage() }  alt={"noun_icon"}/>
-            </object>
+                <object data={this.getImage()} type="image/svg+xml" className="noun-icon">
+                    <img src={this.getImage()} alt={"noun_icon"}/>
+                </object>
             </div>
-    );
+        );
     }
 }
 
