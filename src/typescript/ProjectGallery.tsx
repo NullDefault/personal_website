@@ -89,7 +89,7 @@ class ProjectGallery extends React.Component {
                             ))}
                         </AwesomeSlider>
                     </Container>
-                    <Container className={"project-description"}>
+                    <Container className="project-description">
                         <Paper>
                             {this.projectsData[this.state.current].description}
                         </Paper>

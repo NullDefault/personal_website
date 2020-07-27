@@ -4,17 +4,8 @@
     text-align: center;
 }
 
-.navbar-logo {
-    margin-right: 10px;
-}
-
-.navbar {
-    font-size: 20px;
-    box-shadow: 3px 3px 15px mediumpurple;
-}
 
 .home-header {
-    padding-top: 7%;
     min-height: 100vh;
     display: flex;
     flex-direction: column;

@@ -7,3 +7,12 @@ body {
 text {
     font-family: Roboto, monospace;
 }
+
+.navbar {
+    font-size: 20px;
+    box-shadow: 3px 3px 15px mediumpurple;
+}
+
+.navbar-logo {
+    margin-right: 10px;
+}

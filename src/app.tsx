@@ -7,9 +7,7 @@ import Contact from "./typescript/Contact";
 import Footer from "./typescript/components/Footer";
 import TopNavigationBar from "./typescript/components/TopNavigationBar";
 import Resume from "./typescript/Resume";
-import {pdfjs} from "react-pdf";
 
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 const App = () => (
     <Router>

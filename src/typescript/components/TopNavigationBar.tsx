@@ -10,7 +10,6 @@ class TopNavigationBar extends React.Component {
             <Navbar
                 bg="light"
                 expand="sm"
-                fixed="top"
                 className="navbar"
             >
                 <Navbar.Brand href="#home">

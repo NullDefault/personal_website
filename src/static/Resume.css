@@ -1,0 +1,7 @@
+.react-pdf__Page {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+}
