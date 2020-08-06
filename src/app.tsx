@@ -1,5 +1,7 @@
 import React from "react";
+
 import {BrowserRouter as Router, Redirect, Route} from "react-router-dom";
+
 import Home from "./typescript/Home";
 import About from "./typescript/About";
 import ProjectGallery from "./typescript/ProjectGallery";

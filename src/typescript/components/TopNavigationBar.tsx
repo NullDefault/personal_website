@@ -7,11 +7,8 @@ import React from "react";
 class TopNavigationBar extends React.Component {
     render() {
         return (
-            <Navbar
-                bg="light"
-                expand="sm"
-                className="navbar"
-            >
+            <Navbar bg="light" expand="sm" className="navbar">
+
                 <Navbar.Brand href="#home">
                     <img
                         src={logo}
@@ -21,7 +18,9 @@ class TopNavigationBar extends React.Component {
                         alt="Null Logo"
                     />
                 </Navbar.Brand>
+
                 <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
                         <Nav.Link href="home">Home</Nav.Link>
@@ -33,6 +32,7 @@ class TopNavigationBar extends React.Component {
                         <Nav.Link href="contact">Contact Info</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
+
             </Navbar>
         )
     }

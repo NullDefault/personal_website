@@ -1,15 +1,17 @@
 import React from 'react';
-import AwesomeSlider from 'react-awesome-slider';
-import beeSimScreenshot from '../assets/screenshots/beesim_screenshot.gif';
-import 'react-awesome-slider/dist/styles.css';
 import '../static/ProjectGallery.css';
+
+import AwesomeSlider from 'react-awesome-slider';
+import 'react-awesome-slider/dist/styles.css';
+import {Paper} from "@material-ui/core";
+
 import Container from '@material-ui/core/Container'
 import aiScreenshot from "../assets/screenshots/ai_screenshot.gif";
+import beeSimScreenshot from '../assets/screenshots/beesim_screenshot.gif';
 import depthsScreenshot from "../assets/screenshots/depths_screenshot.gif";
 import processingScreenshot from "../assets/screenshots/processing_screenshot.gif";
 import TDDScreenshot from "../assets/screenshots/tdn_screenshot.gif";
 import JSScreenshot from '../assets/screenshots/js_screenshot.gif';
-import {Paper} from "@material-ui/core";
 
 class ProjectGallery extends React.Component {
     state: { current: number; };

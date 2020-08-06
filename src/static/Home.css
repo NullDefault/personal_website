@@ -4,19 +4,14 @@
     text-align: center;
 }
 
-
 .home-header {
-    min-height: 100vh;
+    min-height: 92vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
-}
-
-.app-link {
-    color: #61dafb;
 }
 
 .noun-icon {
