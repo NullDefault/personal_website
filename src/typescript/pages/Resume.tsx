@@ -1,9 +1,9 @@
 import React from 'react';
-import '../static/Resume.css';
+import '../../static/css/Resume.css';
 
 import {Container} from "@material-ui/core";
 import {Document, Page, pdfjs} from 'react-pdf';
-import resume from "../assets/resume.pdf";
+import resume from "../../static/assets/resume.pdf";
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`
 

@@ -1,7 +1,7 @@
 import React from "react";
-import sde_noun_icon from "../../assets/nounProjectIcons/noun_coding_2828165.svg";
-import ai_noun_icon from "../../assets/nounProjectIcons/noun_coding_2933328.svg";
-import code_noun_icon from "../../assets/nounProjectIcons/noun_design_3160558.svg";
+import sde_noun_icon from "../../static/assets/icons/noun_coding_2828165.svg";
+import ai_noun_icon from "../../static/assets/icons/noun_coding_2933328.svg";
+import code_noun_icon from "../../static/assets/icons/noun_design_3160558.svg";
 
 
 class ImageCycle extends React.Component <{}, { current: number }> {

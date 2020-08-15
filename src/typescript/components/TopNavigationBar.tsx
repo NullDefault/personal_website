@@ -1,5 +1,5 @@
 import Navbar from "react-bootstrap/Navbar";
-import logo from "../../assets/null_icon.png";
+import logo from "../../static/assets/null_icon.png";
 import {Nav, NavDropdown} from "react-bootstrap";
 import React from "react";
 

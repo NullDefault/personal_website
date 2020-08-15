@@ -1,4 +1,7 @@
 body {
+    background: linear-gradient(-45deg, #9866f4, #e84eac);
+    background-blend-mode: darken;
+    align-items: center;
     margin: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

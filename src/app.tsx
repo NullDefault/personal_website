@@ -2,13 +2,13 @@ import React from "react";
 
 import {BrowserRouter as Router, Redirect, Route} from "react-router-dom";
 
-import Home from "./typescript/Home";
-import About from "./typescript/About";
-import ProjectGallery from "./typescript/ProjectGallery";
-import Contact from "./typescript/Contact";
+import Home from "./typescript/pages/Home";
+import About from "./typescript/pages/About";
+import ProjectGallery from "./typescript/pages/ProjectGallery";
+import Contact from "./typescript/pages/Contact";
 import Footer from "./typescript/components/Footer";
 import TopNavigationBar from "./typescript/components/TopNavigationBar";
-import Resume from "./typescript/Resume";
+import Resume from "./typescript/pages/Resume";
 
 
 const App = () => (

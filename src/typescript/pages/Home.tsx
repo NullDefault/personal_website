@@ -1,11 +1,11 @@
 import React from 'react';
-import '../static/Home.css';
+import '../../static/css/Home.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import ReactTypingEffect from 'react-typing-effect';
 import Container from '@material-ui/core/Container'
 
-import ImageCycle from './components/ImageCycle';
+import ImageCycle from '../components/ImageCycle';
 
 function Home() {
     return (
