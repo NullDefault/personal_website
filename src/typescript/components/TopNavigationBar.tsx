@@ -1,5 +1,6 @@
 import Navbar from "react-bootstrap/Navbar";
-import logo from "../../static/assets/null_icon.png";
+import logo from "../../static/assets/icons/null-icon.png";
+import '../../static/css/components/TopNavigationBar.css';
 import {Nav, NavDropdown} from "react-bootstrap";
 import React from "react";
 
@@ -7,7 +8,7 @@ import React from "react";
 class TopNavigationBar extends React.Component {
     render() {
         return (
-            <Navbar bg="light" expand="sm" className="navbar">
+            <Navbar bg="dark" expand="sm" className="navbar navbar-dark">
 
                 <Navbar.Brand href="#home">
                     <img
@@ -26,8 +27,8 @@ class TopNavigationBar extends React.Component {
                         <Nav.Link href="home">Home</Nav.Link>
                         <Nav.Link href="about">About Me</Nav.Link>
                         <NavDropdown title="Experience" id="collasible-nav-dropdown">
-                            <NavDropdown.Item href="resume">Resume</NavDropdown.Item>
                             <NavDropdown.Item href="project_gallery">Project Gallery</NavDropdown.Item>
+                            <NavDropdown.Item href="resume">Resume</NavDropdown.Item>
                         </NavDropdown>
                         <Nav.Link href="contact">Contact Info</Nav.Link>
                     </Nav>

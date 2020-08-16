@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../static/css/Resume.css';
+import '../../static/css/pages/Resume.css';
 
 import {Container} from "@material-ui/core";
 import {Document, Page, pdfjs} from 'react-pdf';

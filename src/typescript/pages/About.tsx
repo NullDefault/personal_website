@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../static/css/About.css';
+import '../../static/css/pages/About.css';
 
 import Container from '@material-ui/core/Container';
 import Paper from '@material-ui/core/Paper';

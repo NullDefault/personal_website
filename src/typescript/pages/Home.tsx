@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../static/css/Home.css';
+import '../../static/css/pages/Home.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import ReactTypingEffect from 'react-typing-effect';
