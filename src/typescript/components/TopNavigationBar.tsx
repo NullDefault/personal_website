@@ -10,11 +10,11 @@ class TopNavigationBar extends React.Component {
         return (
             <Navbar bg="dark" expand="sm" className="navbar navbar-dark">
 
-                <Navbar.Brand href="#home">
+                <Navbar.Brand href="#home" className="null-logo">
                     <img
                         src={logo}
-                        width="50"
-                        height="50"
+                        width={50}
+                        height={50}
                         className="navbar-logo"
                         alt="Null Logo"
                     />

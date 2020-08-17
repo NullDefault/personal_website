@@ -2,3 +2,7 @@
     font-size: 25px;
     font-family: "Roboto", cursive;
 }
+
+.null-logo {
+    filter: invert(100%);
+}
