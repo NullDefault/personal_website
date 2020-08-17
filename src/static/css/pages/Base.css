@@ -13,9 +13,17 @@ text {
 
 .navbar {
     font-size: 20px;
+    position: fixed;
+    z-index: 999;
     box-shadow: 3px 3px 15px mediumpurple;
 }
 
 .navbar-logo {
     margin-right: 10px;
+}
+
+.particle-background{
+    position: absolute;
+    left: 0;
+    top: 0;
 }

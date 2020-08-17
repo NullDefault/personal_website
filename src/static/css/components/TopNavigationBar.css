@@ -6,3 +6,11 @@
 .null-logo {
     filter: invert(100%);
 }
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: cornflowerblue !important;
+}
