@@ -1,5 +1,6 @@
 .navbar {
     font-size: 25px;
+    width: 100% !important;
     font-family: "Roboto", cursive;
 }
 
