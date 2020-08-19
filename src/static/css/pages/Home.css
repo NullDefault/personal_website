@@ -13,6 +13,7 @@
 }
 
 .noun-icon {
+    alignment: center;
     color: white;
     width: 40%;
     filter: invert(100%);

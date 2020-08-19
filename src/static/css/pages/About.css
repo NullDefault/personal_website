@@ -1,21 +1,6 @@
-.photo-wrapper {
-    padding-top: 100px;
-    padding-bottom: 75px;
-}
-
-.photo-of-me {
-    height: 55vmin;
-    position: absolute;
-    top: 100px;
-    left: 100px;
-    pointer-events: none;
-    box-shadow: 3px 3px 20px black;
-}
-
 .paper {
     height: 2000px;
 }
-
 
 .paper-container {
     height: 100%;

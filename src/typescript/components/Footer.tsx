@@ -7,7 +7,7 @@ import React from "react";
 class Footer extends React.Component {
     render() {
         return (
-            <BottomNavigation>
+            <BottomNavigation className="footer">
                 children=
                 <ButtonGroup color="default" aria-label="outlined primary button group">
 
