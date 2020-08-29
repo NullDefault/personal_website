@@ -1,5 +1,6 @@
 import '../../static/css/components/Footer.css';
-import {BottomNavigation, ButtonGroup, IconButton} from "@material-ui/core";
+import Navbar from "react-bootstrap/Navbar";
+import {ButtonGroup, IconButton} from "@material-ui/core";
 import EmailIcon from "@material-ui/icons/Email";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
@@ -8,9 +9,8 @@ import React from "react";
 class Footer extends React.Component {
     render() {
         return (
-            <BottomNavigation className="fixed-bottom">
-                children=
-                <ButtonGroup color="default" aria-label="outlined primary button group">
+            <Navbar bg="light" fixed="bottom" >
+                <ButtonGroup color="default" className="buttons" aria-label="outlined primary button group">
 
                     <IconButton aria-label="E-Mail"
                                 size='medium'
@@ -37,7 +37,7 @@ class Footer extends React.Component {
                     </IconButton>
 
                 </ButtonGroup>
-            </BottomNavigation>
+            </Navbar>
         )
     }
 }
