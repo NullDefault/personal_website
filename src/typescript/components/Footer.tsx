@@ -1,3 +1,4 @@
+import '../../static/css/components/Footer.css';
 import {BottomNavigation, ButtonGroup, IconButton} from "@material-ui/core";
 import EmailIcon from "@material-ui/icons/Email";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
@@ -7,7 +8,7 @@ import React from "react";
 class Footer extends React.Component {
     render() {
         return (
-            <BottomNavigation className="footer">
+            <BottomNavigation className="fixed-bottom">
                 children=
                 <ButtonGroup color="default" aria-label="outlined primary button group">
 

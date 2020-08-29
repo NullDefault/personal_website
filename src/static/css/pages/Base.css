@@ -1,34 +1,19 @@
 body {
-    background: linear-gradient(-45deg, #9866f4, #e84eac);
+    background: linear-gradient(-90deg, #9866f4, #e84eac);
     background-blend-mode: darken;
     align-items: center;
-    margin: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    height: 100%;
+    margin: 0;
 }
 
 text {
     font-family: Roboto, monospace;
 }
 
-.navbar {
-    font-size: 20px;
-    position: fixed;
-    z-index: 999;
-    box-shadow: 3px 3px 15px mediumpurple;
-}
-
-.navbar-logo {
-    margin-right: 10px;
-}
-
 .particle-background{
     position: absolute;
     left: 0;
     top: 0;
-}
-
-.footer {
-    width: 100%;
-    height: 100%;
 }
