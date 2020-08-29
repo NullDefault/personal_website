@@ -7,7 +7,7 @@ import {Paper} from "@material-ui/core";
 
 import Container from '@material-ui/core/Container'
 import aiScreenshot from "../../static/assets/screenshots/ai_screenshot.gif";
-import beeSimScreenshot from '../../static/assets/screenshots/beesim_screenshot.gif';
+// import beeSimScreenshot from '../../static/assets/screenshots/beesim_screenshot.gif';
 import depthsScreenshot from "../../static/assets/screenshots/depths_screenshot.gif";
 import processingScreenshot from "../../static/assets/screenshots/processing_screenshot.gif";
 import TDDScreenshot from "../../static/assets/screenshots/tdn_screenshot.gif";
@@ -15,11 +15,11 @@ import JSScreenshot from '../../static/assets/screenshots/js_screenshot.gif';
 
 
 const projectsData = [
-    {
-        img: beeSimScreenshot,
-        title: 'beeSim',
-        description: 'pyGame bee simulation with a focus on agent based modeling.',
-    },
+    //{
+    //    img: beeSimScreenshot,
+    //    title: 'beeSim',
+    //    description: 'pyGame bee simulation with a focus on agent based modeling.',
+    //},
     {
         img: aiScreenshot,
         title: 'AI Projects',
