@@ -24,13 +24,6 @@ class TopNavigationBar extends React.Component {
 
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
-                        <Nav.Link href="home">Home</Nav.Link>
-                        <Nav.Link href="about">About Me</Nav.Link>
-                        <NavDropdown title="Experience" id="collasible-nav-dropdown">
-                            <NavDropdown.Item href="project_gallery">Project Gallery</NavDropdown.Item>
-                            <NavDropdown.Item href="resume">Resume</NavDropdown.Item>
-                        </NavDropdown>
-                        <Nav.Link href="contact">Contact Info</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
 

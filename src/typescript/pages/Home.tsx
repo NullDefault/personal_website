@@ -23,7 +23,12 @@ function Home() {
                     eraseDelay={2000}
                     typingDelay={1000}
                 />
-
+                <div>
+                    This website is currently under construction.
+                </div>
+                <div>
+                    Check out my GitHub and LinkedIn in the footer.
+                </div>
             </header>
         </div>
     );
