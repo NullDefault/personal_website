@@ -9,7 +9,7 @@ import React from "react";
 class Footer extends React.Component {
     render() {
         return (
-            <Navbar bg="light" fixed="bottom" >
+            <Navbar bg="light" fixed="bottom">
                 <ButtonGroup color="default" className="buttons" aria-label="outlined primary button group">
 
                     <IconButton aria-label="E-Mail"
