@@ -2,7 +2,6 @@
     font-size: 25px;
     width: 100% !important;
     font-family: "Roboto", cursive;
-    position: fixed;
     z-index: 999;
     box-shadow: 3px 3px 15px mediumpurple;
 }

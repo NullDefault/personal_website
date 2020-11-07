@@ -10,24 +10,26 @@ import Footer from "./typescript/components/Footer";
 import TopNavigationBar from "./typescript/components/TopNavigationBar";
 import Resume from "./typescript/pages/Resume";
 import AnimatedBackground from "./typescript/components/AnimatedBackground";
+import DataVizProject from "./typescript/pages/DataVizProject";
+import {Container} from "react-bootstrap";
 
 const App = () => (
-    <Router>
+    <div>
         <TopNavigationBar/>
-        <div>
-            <Route exact path="/home" component={Home}/>
-            <Route exact path="/">
-                <Redirect to="/home"/>
-            </Route>
-            <Route path="/about" component={About}/>
-            <Route path="/project_gallery" component={ProjectGallery}/>
-            <Route path="/resume" component={Resume}/>
-            <Route path="/contact" component={Contact}/>
-        </div>
-        <AnimatedBackground/>
+        <Router>
+            <Container fluid className="app">
+                <Route exact path="/">
+                    <Redirect to="/home"/>
+                </Route>
+                <Route exact path="/home" component={Home}/>
+                <Route path="/dataVizProject" component={DataVizProject}/>
+                <Route path="/project_gallery" component={ProjectGallery}/>
+                <Route path="/resume" component={Resume}/>
+                <Route path="/contact" component={Contact}/>
+            </Container>
+        </Router>
         <Footer/>
-    </Router>
-
+    </div>
 );
 
 export default App;

@@ -1,7 +1,7 @@
 import Navbar from "react-bootstrap/Navbar";
 import logo from "../../static/assets/icons/null-icon.png";
 import '../../static/css/components/TopNavigationBar.css';
-import {Nav, NavDropdown} from "react-bootstrap";
+import {Nav} from "react-bootstrap";
 import React from "react";
 
 
@@ -10,7 +10,7 @@ class TopNavigationBar extends React.Component {
         return (
             <Navbar bg="dark" expand="sm" className="navbar navbar-dark">
 
-                <Navbar.Brand href="#home" className="null-logo">
+                <Navbar.Brand href="/dataVizProject" className="null-logo">
                     <img
                         src={logo}
                         width={50}

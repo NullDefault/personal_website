@@ -30,6 +30,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "react-typing-effect": "^2.0.3",
+    "tableau-react": "^1.2.2",
     "typescript": "^3.7.5"
   },
   "scripts": {

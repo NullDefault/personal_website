@@ -6,6 +6,7 @@ import ReactTypingEffect from 'react-typing-effect';
 import Container from '@material-ui/core/Container'
 
 import ImageCycle from '../components/ImageCycle';
+import AnimatedBackground from "../components/AnimatedBackground";
 
 function Home() {
     return (
@@ -30,6 +31,7 @@ function Home() {
                     Check out my GitHub and LinkedIn in the footer.
                 </div>
             </header>
+            <AnimatedBackground/>
         </div>
     );
 }
