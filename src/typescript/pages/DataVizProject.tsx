@@ -24,6 +24,16 @@ function DataVizProject() {
                             options={{
                                 hideTabs: false
                             }}
+                            url="https://public.tableau.com/views/DataVizFinal_16047841003180/TreemapDB?:language=en&:display_count=y&publish=yes&:origin=viz_share_link"
+                        />
+                    </Container>
+                </ListGroupItem>
+                <ListGroupItem className="tableau-list-item">
+                    <Container>
+                        <TableauReport
+                            options={{
+                                hideTabs: false
+                            }}
                             url="https://public.tableau.com/views/DataVizFinal_16047841003180/GDPvsHDIHeatmaps?:language=en&:display_count=y&publish=yes&:origin=viz_share_link"
                         />
                     </Container>
@@ -44,10 +54,12 @@ function DataVizProject() {
                             options={{
                                 hideTabs: false
                             }}
-                            url="https://public.tableau.com/views/DataVizFinal_16047841003180/ScatterplotDb?:language=en&:display_count=y&publish=yes&:origin=viz_share_link"
+                            url="https://public.tableau.com/views/DataVizFinal_16047841003180/Scatterplots?:language=en&:display_count=y&publish=yes&:origin=viz_share_link"
                         />
                     </Container>
                 </ListGroupItem>
+
+
             </ListGroup>
         </Container>
     );
