@@ -1,0 +1,13 @@
+.home-header {
+    min-height: 92vh;
+    margin-top: 5%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.home-background {
+    text-align: center;
+}

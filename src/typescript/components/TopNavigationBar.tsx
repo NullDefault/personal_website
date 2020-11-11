@@ -10,7 +10,7 @@ class TopNavigationBar extends React.Component {
         return (
             <Navbar bg="dark" expand="sm" className="navbar navbar-dark">
 
-                <Navbar.Brand href="/home" className="null-logo">
+                <Navbar.Brand href="home" className="null-logo">
                     <img
                         src={logo}
                         width={50}
@@ -24,6 +24,8 @@ class TopNavigationBar extends React.Component {
 
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
+                        <Nav.Link href="home">Home</Nav.Link>
+                        <Nav.Link href="bio">About Me</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
 

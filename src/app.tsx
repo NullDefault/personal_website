@@ -8,6 +8,7 @@ import TopNavigationBar from "./typescript/components/TopNavigationBar";
 import Resume from "./typescript/pages/Resume";
 import DataVizProject from "./typescript/pages/DataVizProject";
 import {Container} from "react-bootstrap";
+import Biography from "./typescript/pages/Biography";
 
 const App = () => (
     <div>
@@ -20,6 +21,7 @@ const App = () => (
                 <Route exact path="/home" component={Home}/>
                 <Route path="/dataVizProject" component={DataVizProject}/>
                 <Route path="/resume" component={Resume}/>
+                <Route path="/bio" component={Biography}/>
             </Container>
         </Router>
         <Footer/>
