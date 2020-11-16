@@ -98,12 +98,11 @@ function Biography() {
                 Check out some of my favourite quotes below!
             </text>
             <br/>
-            <Container className='flex-fill'>
+            <Container className='mb-5'>
                 <Carousel>
                     {quotes}
                 </Carousel>
             </Container>
-
         </Col>;
     }else{
         secondCol = <Col>
@@ -113,7 +112,7 @@ function Biography() {
                 Check out some of my favourite quotes below!
             </text>
             <br/>
-            <Container className='flex-fill'>
+            <Container className='mb-5'>
                 <Carousel>
                     {quotes}
                 </Carousel>
