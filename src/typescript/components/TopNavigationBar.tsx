@@ -1,7 +1,7 @@
 import Navbar from "react-bootstrap/Navbar";
 import logo from "../../static/assets/icons/null-icon.png";
 import '../../static/css/components/TopNavigationBar.css';
-import {Nav, NavDropdown} from "react-bootstrap";
+import {Nav} from "react-bootstrap";
 import React from "react";
 
 
@@ -26,9 +26,6 @@ class TopNavigationBar extends React.Component {
                     <Nav className="mr-auto">
                         <Nav.Link href="home">Home</Nav.Link>
                         <Nav.Link href="bio">About Me</Nav.Link>
-                        <NavDropdown title="Projects" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="dataVizProject">Data Viz Project</NavDropdown.Item>
-                        </NavDropdown>
                     </Nav>
                 </Navbar.Collapse>
 
