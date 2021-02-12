@@ -1,7 +1,8 @@
 import React from "react";
-import { Box, Flex, Text, Link } from "@chakra-ui/react";
-import { FaRegWindowClose, FaBars } from "react-icons/fa";
+import {Box, Flex, Text, Link, useColorModeValue} from "@chakra-ui/react";
+import { FaWindowClose, FaBars } from "react-icons/fa";
 import { NavLogo } from "./NavLogo";
+import {ColorModeSwitch} from "./ColorModeSwitch";
 
 const MenuItems = (props) => {
   const { children, isLast, to = "/", ...rest } = props;
@@ -25,6 +26,7 @@ const MenuItems = (props) => {
 const Header = (props) => {
   const [show, setShow] = React.useState(false);
   const toggleMenu = () => setShow(!show);
+  const textColor = useColorModeValue('dark', 'light');
 
   return (
     <Flex
@@ -35,19 +37,18 @@ const Header = (props) => {
       w="100%"
       mb={8}
       p={8}
-      bg={["primary.500", "primary.500", "transparent", "transparent"]}
-      color={["white", "white", "primary.700", "primary.700"]}
+      bg="transparent"
+      color={textColor}
       {...props}
     >
       <Flex align="center">
         <NavLogo
           w="100px"
-          color={["white", "white", "primary.500", "primary.500"]}
         />
       </Flex>
 
       <Box display={{ base: "block", md: "none" }} onClick={toggleMenu}>
-        {show ? <FaRegWindowClose /> : <FaBars />}
+        {show ? <FaWindowClose /> : <FaBars />}
       </Box>
 
       <Box
@@ -63,6 +64,7 @@ const Header = (props) => {
           <MenuItems to="/">Home</MenuItems>
           <MenuItems to="/about">About Me </MenuItems>
           <MenuItems to="/portfolio">Portfolio </MenuItems>
+          <ColorModeSwitch/>
         </Flex>
       </Box>
     </Flex>
