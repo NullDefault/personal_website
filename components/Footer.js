@@ -36,7 +36,7 @@ const FooterIcon = ({ type }) => {
 };
 
 export const Footer = (props) => (
-  <Flex as="footer" py="5rem" bg="black" color="white" {...props}>
+  <Flex as="footer" py="5rem" bg="gray.900" color="white" {...props}>
     <VStack spacing="24px" w="100%">
       <HStack spacing="32px">
         <FooterIcon type="email" />
