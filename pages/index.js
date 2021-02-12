@@ -12,7 +12,7 @@ export default function Home() {
             </Heading>
             <Image
             style={{
-                webkitFilter: 'invert(1)',
+                WebkitFilter: 'invert(1)',
                 filter: 'invert(1)'
             }}
             pt='4%'
