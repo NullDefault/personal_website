@@ -1,23 +1,24 @@
 import {
-  Box,
-  Grid,
-  Heading,
+  Flex,
   useColorModeValue,
-  VStack,
 } from "@chakra-ui/react";
+import Hero from "../components/Hero";
 
 export default function Home() {
-  const color = useColorModeValue("black", "white");
-
   return (
-    <Box textAlign="center" fontSize="xl" bg="primary" color={color}>
-      <Grid minH="100vh" p={3}>
-        <VStack spacing={4}>
-          <Heading as="h1" size="2xl" pt="20vh">
-            Website is currently being rebuilt.
-          </Heading>
-        </VStack>
-      </Grid>
-    </Box>
+      <Flex
+          direction="column"
+          align="center"
+          maxW={{ xl: "1200px" }}
+          m="0 auto"
+      >
+        <Hero
+          title="Hello, my name is David"
+          subtitle="I'm a software engineer and artist."
+          image="https://source.unsplash.com/collection/404339/800x600"
+          ctaText="Find out more about me!"
+          ctaLink="/about"
+        />
+      </Flex>
   );
 }

@@ -1,32 +1,28 @@
-import React from "react";
-import {Box, Flex, Text, Link, useColorModeValue} from "@chakra-ui/react";
+import { Box, Flex, Text, Link, useColorModeValue } from "@chakra-ui/react";
 import { FaWindowClose, FaBars } from "react-icons/fa";
 import { NavLogo } from "./NavLogo";
-import {ColorModeSwitch} from "./ColorModeSwitch";
+import { ColorModeSwitch } from "./ColorModeSwitch";
+import { useState } from "react";
 
 const MenuItems = (props) => {
   const { children, isLast, to = "/", ...rest } = props;
   return (
-      <Link href={to}
-            fontSize={22}
-            _hover={{ fontSize: 28 }}
-            {...rest}
+    <Link href={to} fontSize={22} _hover={{ fontSize: 28 }} {...rest}>
+      <Text
+        mb={{ base: isLast ? 0 : 8, sm: 0 }}
+        mr={{ base: 0, sm: isLast ? 0 : 8 }}
+        display="block"
       >
-        <Text
-            mb={{ base: isLast ? 0 : 8, sm: 0 }}
-            mr={{ base: 0, sm: isLast ? 0 : 8 }}
-            display="block"
-        >
-          {children}
-        </Text>
-      </Link>
+        {children}
+      </Text>
+    </Link>
   );
 };
 
 const Header = (props) => {
-  const [show, setShow] = React.useState(false);
+  const [show, setShow] = useState(false);
   const toggleMenu = () => setShow(!show);
-  const textColor = useColorModeValue('dark', 'light');
+  const textColor = useColorModeValue("dark", "light");
 
   return (
     <Flex
@@ -35,16 +31,14 @@ const Header = (props) => {
       justify="space-between"
       wrap="wrap"
       w="100%"
-      mb={8}
-      p={8}
+      px={8}
+      pt={8}
       bg="transparent"
       color={textColor}
       {...props}
     >
       <Flex align="center">
-        <NavLogo
-          w="100px"
-        />
+        <NavLogo w={["50px", "80px"]} />
       </Flex>
 
       <Box display={{ base: "block", md: "none" }} onClick={toggleMenu}>
@@ -64,7 +58,7 @@ const Header = (props) => {
           <MenuItems to="/">Home</MenuItems>
           <MenuItems to="/about">About Me </MenuItems>
           <MenuItems to="/portfolio">Portfolio </MenuItems>
-          <ColorModeSwitch/>
+          <ColorModeSwitch />
         </Flex>
       </Box>
     </Flex>

@@ -4,15 +4,15 @@ export const NavLogo = (props) => {
   const color = useColorModeValue(
     {},
     {
-        WebkitFilter: "invert(1)",
-        filter: "invert(1)"
+      WebkitFilter: "invert(1)",
+      filter: "invert(1)",
     }
   );
 
   return (
     <Box {...props}>
       <a href="/">
-        <Image src="/nullLogo.svg" style={color}/>
+        <Image src="/nullLogo.svg" style={color} />
       </a>
     </Box>
   );
