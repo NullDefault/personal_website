@@ -12,7 +12,7 @@ export const NavLogo = (props) => {
   return (
     <Box {...props}>
       <a href="/">
-        <Image src="/nullLogo.png" style={color}/>
+        <Image src="/nullLogo.svg" style={color}/>
       </a>
     </Box>
   );
