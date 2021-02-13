@@ -5,8 +5,7 @@ import {
   Flex,
   Heading,
   Image,
-  Stack,
-  Text,
+  Stack, useColorModeValue,
 } from "@chakra-ui/react";
 
 export default function Hero({
@@ -68,7 +67,7 @@ export default function Hero({
         </Link>
       </Stack>
       <Box w={{ base: "80%", sm: "60%", md: "50%" }} mb={{ base: 12, md: 0 }}>
-        <Image src={image} size="100%" rounded="1rem" shadow="2xl" />
+        <Image src={image} rounded="1rem" shadow="2xl" width={['50', '60vw']} bgColor='white'/>
       </Box>
     </Flex>
   );

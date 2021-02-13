@@ -1,4 +1,5 @@
-import { Box, Image, useColorModeValue } from "@chakra-ui/react";
+import { Box, useColorModeValue } from "@chakra-ui/react";
+import Image from "next/image";
 
 export const NavLogo = (props) => {
   const color = useColorModeValue(
@@ -12,7 +13,9 @@ export const NavLogo = (props) => {
   return (
     <Box {...props}>
       <a href="/">
-        <Image src="/nullLogo.svg" style={color} />
+          <Box  style={color} >
+              <Image src="/nullLogo.svg" width='100%' height='100%'/>
+          </Box>
       </a>
     </Box>
   );

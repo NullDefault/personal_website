@@ -15,7 +15,7 @@ export default function Home() {
         <Hero
           title="Hello, my name is David"
           subtitle="I'm a software engineer and artist."
-          image="https://source.unsplash.com/collection/404339/800x600"
+          image="/doodles.svg"
           ctaText="Find out more about me!"
           ctaLink="/about"
         />
