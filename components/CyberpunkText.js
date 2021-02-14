@@ -76,7 +76,7 @@ const CyberpunkText = ({
         spring({
           from: 0,
           to: content.length,
-          stiffness: 8,
+          stiffness: 7,
           damping: 5,
         })
       ).start(springValue);
@@ -93,7 +93,7 @@ const CyberpunkText = ({
     <span className={classNames("decoder-text", className)} {...rest}>
       <Box
           fontWeight="bold"
-          color="primary.800"
+          w={['90vw', '100%']}
           fontSize={38}
           textAlign={["center", "center", "left", "left"]}
           isTruncated
