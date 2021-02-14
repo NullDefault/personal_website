@@ -5,8 +5,9 @@ import {
   Flex,
   Heading,
   Image,
-  Stack, useColorModeValue,
+  Stack,
 } from "@chakra-ui/react";
+import Tilt from "react-tilt";
 
 export default function Hero({
   title,
@@ -67,7 +68,15 @@ export default function Hero({
         </Link>
       </Stack>
       <Box w={{ base: "80%", sm: "60%", md: "50%" }} mb={{ base: 12, md: 0 }}>
-        <Image src={image} rounded="1rem" shadow="2xl" width={['50', '60vw']} bgColor='white'/>
+        <Tilt className="Tilt" options={{ max: 25 }}>
+          <Image
+            src={image}
+            rounded="1rem"
+            shadow="2xl"
+            width={["50", "60vw"]}
+            bgColor="white"
+          />
+        </Tilt>
       </Box>
     </Flex>
   );
