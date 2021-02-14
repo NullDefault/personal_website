@@ -1,13 +1,14 @@
 import {
   Box,
   Button,
-  Link,
   Flex,
   Heading,
   Image,
+  Link,
   Stack,
 } from "@chakra-ui/react";
 import Tilt from "react-tilt";
+import CyberpunkText from "./CyberpunkText";
 
 export default function Hero({
   title,
@@ -33,15 +34,8 @@ export default function Hero({
         w={{ base: "80%", md: "40%" }}
         align={["center", "center", "flex-start", "flex-start"]}
       >
-        <Heading
-          as="h1"
-          size="xl"
-          fontWeight="bold"
-          color="primary.800"
-          textAlign={["center", "center", "left", "left"]}
-        >
-          {title}
-        </Heading>
+        <CyberpunkText text={title} />
+
         <Heading
           as="h2"
           size="md"
