@@ -67,7 +67,7 @@ export default function Hero({
             src={image}
             rounded="1rem"
             shadow="dark-lg"
-            width={["50", "60vw"]}
+            width={["50", "1200px"]}
             bg="white"
           />
         </Tilt>
