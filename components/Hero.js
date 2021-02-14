@@ -66,9 +66,9 @@ export default function Hero({
           <Image
             src={image}
             rounded="1rem"
-            shadow="2xl"
+            shadow="dark-lg"
             width={["50", "60vw"]}
-            bgColor="white"
+            bg="white"
           />
         </Tilt>
       </Box>

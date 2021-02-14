@@ -61,7 +61,7 @@ const CyberpunkText = ({
       const characterMap = output.current.map((item) => {
         return `<span class="decoder-text__${item.type}">${item.value}</span>`;
       });
-        console.log(characterMap);
+      console.log(characterMap);
       containerInstance.innerHTML = characterMap.join("");
     };
 
@@ -76,8 +76,8 @@ const CyberpunkText = ({
         spring({
           from: 0,
           to: content.length,
-          stiffness: 7,
-          damping: 5,
+          stiffness: 5,
+          damping: 3,
         })
       ).start(springValue);
     }
@@ -92,11 +92,11 @@ const CyberpunkText = ({
   return (
     <span className={classNames("decoder-text", className)} {...rest}>
       <Box
-          fontWeight="bold"
-          w={['90vw', '100%']}
-          fontSize={38}
-          textAlign={["center", "center", "left", "left"]}
-          isTruncated
+        fontWeight="bold"
+        w={["90vw", "100%"]}
+        fontSize={38}
+        textAlign={["center", "center", "left", "left"]}
+        isTruncated
       >
         <span aria-hidden className="decoder-text__content" ref={container} />
       </Box>
