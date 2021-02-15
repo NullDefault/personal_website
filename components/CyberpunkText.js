@@ -93,7 +93,7 @@ const CyberpunkText = ({
     <span className={classNames("decoder-text", className)} {...rest}>
       <Box
         fontWeight="bold"
-        w={["90vw", "100%"]}
+        w={["80vw", "100%"]}
         fontSize={38}
         textAlign={["center", "center", "left", "left"]}
         isTruncated
