@@ -55,7 +55,8 @@ export default function Hero({
             py="4"
             px="4"
             lineHeight="1"
-            size="md"
+            w={['70vw', '15vw']}
+            h='7vh'
           >
             {ctaText}
           </Button>

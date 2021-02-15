@@ -96,7 +96,6 @@ const CyberpunkText = ({
         w={["80vw", "100%"]}
         fontSize={38}
         textAlign={["center", "center", "left", "left"]}
-        isTruncated
       >
         <span aria-hidden className="decoder-text__content" ref={container} />
       </Box>
