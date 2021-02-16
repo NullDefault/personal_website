@@ -33,9 +33,9 @@ export default function Hero({
         spacing={4}
         w={{ base: "80%", md: "40%" }}
         align={["center", "center", "flex-start", "flex-start"]}
+        textAlign="center"
       >
         <CyberpunkText text={title} />
-
         <Heading
           as="h2"
           size="md"
@@ -55,8 +55,8 @@ export default function Hero({
             py="4"
             px="4"
             lineHeight="1"
-            w={['70vw', '15vw']}
-            h='7vh'
+            w={["70vw", "15vw"]}
+            h="7vh"
           >
             {ctaText}
           </Button>

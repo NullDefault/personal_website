@@ -95,7 +95,6 @@ const CyberpunkText = ({
         fontWeight="bold"
         w={["80vw", "100%"]}
         fontSize={38}
-        textAlign={["center", "center", "left", "left"]}
       >
         <span aria-hidden className="decoder-text__content" ref={container} />
       </Box>

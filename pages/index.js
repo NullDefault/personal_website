@@ -1,10 +1,16 @@
-import { Flex, ScaleFade } from "@chakra-ui/react";
+import { Flex } from "@chakra-ui/react";
 import Hero from "../components/Hero";
+import PageTransition from "../components/PageTransition";
 
 export default function Home() {
   return (
-    <Flex direction="column" align="center" maxW={{ xl: "1200px" }} m="0 auto">
-      <ScaleFade initialScale={0.9} in={true}>
+    <PageTransition>
+      <Flex
+        direction="column"
+        align="center"
+        maxW={{ xl: "1200px" }}
+        m="0 auto"
+      >
         <Hero
           title="Hi, I'm David."
           subtitle="I'm a software engineer and artist."
@@ -12,7 +18,7 @@ export default function Home() {
           ctaText="Learn more about me"
           ctaLink="/about"
         />
-      </ScaleFade>
-    </Flex>
+      </Flex>
+    </PageTransition>
   );
 }
