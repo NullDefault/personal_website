@@ -65,13 +65,13 @@ export default function Hero({
       <Box w={{ base: "80%", sm: "60%", md: "50%" }} mb={{ base: 12, md: 0 }}>
         <Tilt className="Tilt" options={{ max: 25 }}>
           <Image
-            src={image}
+            src={"poo"}
             alt="splash art"
             rounded="1rem"
             shadow="dark-lg"
             bg="white"
-            w="70vw"
-            minH={["20vh", "25vh"]}
+            minw="44vw"
+            minH={["23vh", "43vh"]}
           />
         </Tilt>
       </Box>
