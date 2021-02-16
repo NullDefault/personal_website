@@ -70,8 +70,8 @@ export default function Hero({
             rounded="1rem"
             shadow="dark-lg"
             bg="white"
-            w="44vw"
-            minH={["23vh", "43vh"]}
+            w={["", "44vw"]}
+            minH={["20vh", "43vh"]}
           />
         </Tilt>
       </Box>
