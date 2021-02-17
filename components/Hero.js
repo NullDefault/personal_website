@@ -9,6 +9,7 @@ import {
 } from "@chakra-ui/react";
 import Tilt from "react-tilt";
 import CyberpunkText from "./CyberpunkText";
+import { useRouter } from 'next/router'
 
 export default function Hero({
   title,
@@ -18,6 +19,8 @@ export default function Hero({
   ctaText,
   ...rest
 }) {
+  const router = useRouter();
+
   return (
     <Flex
       align="center"
@@ -50,6 +53,7 @@ export default function Hero({
         <Link to={ctaLink}>
           <Button
             variant="outline"
+            onClick={()=>{router.push('/about')}}
             color="primary.800"
             borderRadius="8px"
             py="4"
