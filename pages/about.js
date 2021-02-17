@@ -1,4 +1,4 @@
-import { VStack, Text, Wrap, Link } from "@chakra-ui/react";
+import { VStack, Text, Wrap, Link, Heading } from "@chakra-ui/react";
 import PageTransition from "../components/PageTransition";
 import Section from "../components/Section";
 import interests from "../data/interests.json";
@@ -30,7 +30,7 @@ const About = () => (
     <VStack spacing={8} pb={{ base: 24, md: 16 }}>
       <Section>
         <VStack align="start">
-          <CyberpunkText text="About" />
+          <Heading>About</Heading>
           <Text>
             I am currently an undergraduate at Drew University, studying
             Computer & Data Science, as well as Philosophy. I help run{" "}
@@ -60,7 +60,7 @@ const About = () => (
       </Section>
       <Section>
         <VStack align="stretch" spacing={4}>
-          <CyberpunkText text="Work" />
+          <Heading>Work</Heading>
           <Text>
             I have professional experience in software development, team
             management, independent research and visual design. My skills have
@@ -102,7 +102,7 @@ const About = () => (
       </Section>
       <Section>
         <VStack align="stretch" spacing={4}>
-          <CyberpunkText text="Things I Like" />
+          <Heading>Things I Like</Heading>
           <Wrap>
             {shuffle(interests.like).map((el) => (
               <InterestTag name={el} like />
@@ -112,7 +112,7 @@ const About = () => (
       </Section>
       <Section>
         <VStack align="stretch" spacing={4}>
-          <CyberpunkText text="Things I Dislike" />
+          <Heading>Things I Dislike</Heading>
           <Wrap>
             {shuffle(interests.dislike).map((el) => (
               <InterestTag name={el} />
