@@ -23,7 +23,9 @@ export function ProjectCard({
   ...rest
 }) {
   const { isOpen, onOpen, onClose } = useDisclosure();
-
+  const onLinkClick = (event) => {
+    event.stopPropagation()
+  }
   const { categories } = stack;
 
   return (
@@ -73,6 +75,7 @@ export function ProjectCard({
                 <Link
                   href={githubUrl}
                   title="See the project on GitHub"
+                  onClick={onLinkClick}
                   isExternal
                   aria-label="See project on GitHub"
                 >
@@ -84,6 +87,7 @@ export function ProjectCard({
                 <Link
                   href={liveUrl}
                   title="See project live version"
+                  onClick={onLinkClick}
                   isExternal
                   aria-label="See project live version"
                 >

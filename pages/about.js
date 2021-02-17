@@ -91,7 +91,8 @@ const About = () => (
             . If you would like to learn more, please see my professional resume{" "}
             <Link color="blue.500" href="/resume.pdf">
               here
-            </Link> or explore my projects{" "}
+            </Link>{" "}
+            or explore my projects{" "}
             <Link color="blue.500" href="/portfolio">
               at this page
             </Link>
