@@ -1,0 +1,75 @@
+[
+  {
+    "id": 0,
+    "title": "Volog",
+    "liveUrl": "https://volog.herokuapp.com/",
+    "githubUrl": "https://github.com/DrewUniversityCS/Volog",
+    "description": "Volunteer Log is a software solution for recording and and querying volunteer hours. Developed by me and my teammates for CSCI 340: Software Engineering. ",
+    "mainImage": {
+      "id": 0,
+      "url": "https://raw.githubusercontent.com/DrewUniversityCS/Volog/master/screenshots/stats-view.png"
+    },
+    "stack": {
+      "id": 0,
+      "framework": "React.js + Django",
+      "language": "JavaScript and Python",
+      "libraries": ["Bootstrap", "Material Design"],
+      "databases": ["MySQL"],
+      "categories": ["Frontend", "Backend"]
+    }
+  },
+  {
+    "id": 1,
+    "title": "Portfolio",
+    "liveUrl": "https://nulldefault.com/",
+    "githubUrl": "https://github.com/NullDefault/personal_website",
+    "description": "My portfolio website made with my favourite technologies for frontend development. You are looking at it right now!",
+    "mainImage": {
+      "id": 1,
+      "url": "/screenshot.png"
+    },
+    "stack": {
+      "id": 1,
+      "framework": "Next.js",
+      "language": "JavaScript",
+      "libraries": ["ChakraUI"],
+      "categories": ["Frontend"]
+    }
+  },
+  {
+    "id": 2,
+    "title": "TEDxDrewUniversity Website",
+    "liveUrl": "https://tedxdrewuniversity.com/",
+    "githubUrl": "https://github.com/NullDefault/TEDxDrewUWebsite",
+    "description": "The website I developed for the TEDxDrewUniversity organization, of which I am the Creative Lead of. The static website is fed data from a firebase backend which is accessible from inside the application via an admin interface.",
+    "mainImage": {
+      "id": 2,
+      "url": "https://raw.githubusercontent.com/NullDefault/TEDxDrewUWebsite/master/screenshots/screenshot1.png"
+    },
+    "stack": {
+      "id": 2,
+      "framework": "React.js",
+      "language": "JavaScript",
+      "libraries": ["ChakraUI"],
+      "databases": ["Firebase"],
+      "categories": ["Frontend", "Backend"]
+    }
+  },
+  {
+    "id": 3,
+    "title": "BeeSim",
+    "githubUrl": "https://github.com/NullDefault/beeSim",
+    "description": "BeeSim is an exploration into how complex behavior emerges from the interaction of individually simple entities. The central goal of the simulation is to create emergent behavior without explicitly programming it.",
+    "mainImage": {
+      "id": 3,
+      "url": "https://raw.githubusercontent.com/NullDefault/beeSim/master/screenshots/screenshot2.png"
+    },
+    "stack": {
+      "id": 3,
+      "framework": "None",
+      "language": "Python",
+      "libraries": ["PyGame"],
+      "categories": ["Simulation", "Game"]
+    }
+  }
+]

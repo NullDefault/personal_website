@@ -1,14 +1,20 @@
-import {Box, Flex, ScaleFade} from "@chakra-ui/react";
-import CyberpunkText from "../components/CyberpunkText";
+import { Flex } from "@chakra-ui/react";
+import PageTransition from "../components/PageTransition";
+import {ProjectsList} from "../components/ProjectsList";
+import projects from "../data/projects.json";
 
 export default function Portfolio() {
-    return (
-        <Flex direction="column" align="center" maxW={{xl: "1200px"}} m="0 auto">
-            <ScaleFade initialScale={0.9} in={true}>
-                <Box mt='20vh' h='80vh'>
-                    <CyberpunkText text={"I am currently working on this page"}/>
-                </Box>
-            </ScaleFade>
-        </Flex>
-    );
+  return (
+    <PageTransition>
+      <Flex
+        direction="column"
+        align="center"
+        maxW={{ xl: "1200px" }}
+        m="0 auto"
+        pb={{ base: 24, md: 16 }}
+      >
+          <ProjectsList projects={projects}/>
+      </Flex>
+    </PageTransition>
+  );
 }
