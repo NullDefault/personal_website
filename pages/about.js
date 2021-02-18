@@ -32,8 +32,9 @@ const About = () => (
         <VStack align="start">
           <Heading>About</Heading>
           <Text>
-            I am currently an undergraduate at Drew University, studying
-            Computer & Data Science, as well as Philosophy. I help run{" "}
+            I am currently an undergraduate at Drew University, majoring in
+            Computer Science and Philosophy, and minoring in Data Science. I
+            help run{" "}
             <Link
               isExternal
               color="blue.500"

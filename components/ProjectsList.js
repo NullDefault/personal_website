@@ -33,7 +33,7 @@ export function ProjectsList({ projects }) {
             <PopoverArrow />
             <PopoverCloseButton />
             <PopoverBody p={5}>
-              Click on the project cards to learn more about them!
+              Click on the project cards to see more information about them!
             </PopoverBody>
           </PopoverContent>
         </Popover>
