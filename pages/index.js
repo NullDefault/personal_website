@@ -13,7 +13,7 @@ export default function Home() {
       >
         <Hero
           title="Hi, I'm David."
-          subtitle="I'm a software engineer and artist."
+          subtitle="I'm a software engineer and designer."
           image="/doodles.svg"
           ctaText="Learn more about me"
           ctaLink="/about"
