@@ -9,7 +9,7 @@ import {
 } from "@chakra-ui/react";
 import Tilt from "react-tilt";
 import CyberpunkText from "./CyberpunkText";
-import { useRouter } from 'next/router'
+import { useRouter } from "next/router";
 
 export default function Hero({
   title,
@@ -53,7 +53,9 @@ export default function Hero({
         <Link to={ctaLink}>
           <Button
             variant="outline"
-            onClick={()=>{router.push('/about')}}
+            onClick={() => {
+              router.push("/about");
+            }}
             color="primary.800"
             borderRadius="8px"
             py="4"
@@ -64,15 +66,14 @@ export default function Hero({
           </Button>
         </Link>
       </Stack>
-      <Box w={{base: "100%", md: "400px", lg: "600px", xl: "800px"}} mb={{ base: 12, md: 0 }} ml={{base: 0, md: 24}}>
+      <Box
+        w={{ base: "100%", md: "400px", lg: "600px", xl: "800px" }}
+        h={{ base: "225px", md: "300px", lg: "450px", xl: "600px" }}
+        mb={{ base: 24, md: 0 }}
+        ml={{ base: 0, md: 24 }}
+      >
         <Tilt className="Tilt" options={{ max: 25 }}>
-          <Image
-            src={image}
-            alt="splash art"
-            rounded="1rem"
-            shadow="dark-lg"
-            bg="white"
-          />
+          <Image src={image} rounded="1rem" shadow="dark-lg" bg="white" />
         </Tilt>
       </Box>
     </Flex>
