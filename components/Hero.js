@@ -59,14 +59,12 @@ export default function Hero({
             py="4"
             px="4"
             lineHeight="1"
-            w={["70vw", "15vw"]}
-            h="7vh"
           >
             {ctaText}
           </Button>
         </Link>
       </Stack>
-      <Box w={{ base: "80%", sm: "60%", md: "50%" }} mb={{ base: 12, md: 0 }}>
+      <Box w={{base: "100%", md: "400px", lg: "600px", xl: "800px"}} mb={{ base: 12, md: 0 }} ml={{base: 0, md: 24}}>
         <Tilt className="Tilt" options={{ max: 25 }}>
           <Image
             src={image}
@@ -74,7 +72,6 @@ export default function Hero({
             rounded="1rem"
             shadow="dark-lg"
             bg="white"
-            w={["", "45vw"]}
           />
         </Tilt>
       </Box>
