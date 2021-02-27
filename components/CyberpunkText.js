@@ -61,7 +61,6 @@ const CyberpunkText = ({
       const characterMap = output.current.map((item) => {
         return `<span class="decoder-text__${item.type}">${item.value}</span>`;
       });
-      console.log(characterMap);
       containerInstance.innerHTML = characterMap.join("");
     };
 
