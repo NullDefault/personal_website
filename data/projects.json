@@ -43,7 +43,7 @@
     "description": "The website I developed for the TEDxDrewUniversity organization, of which I am the Creative Lead of. The static website is fed data from a firebase backend which is accessible from inside the application via an admin interface.",
     "mainImage": {
       "id": 2,
-      "url": "https://raw.githubusercontent.com/NullDefault/TEDxDrewUWebsite/master/screenshots/screenshot1.png"
+      "url": "https://raw.githubusercontent.com/NullDefault/TEDxDrewUWebsite/FileUploads/src/assets/PNG/screenshot1.png"
     },
     "stack": {
       "id": 2,
