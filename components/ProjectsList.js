@@ -17,7 +17,7 @@ import { ProjectCard } from "./ProjectCard";
 
 export function ProjectsList({ projects }) {
   return (
-    <VStack width="full" spacing={7} alignItems="flex-start" pl={['5vw', '']}>
+    <VStack width="full" spacing={7} alignItems="flex-start" pl={["5vw", ""]}>
       <HStack pt={3}>
         <Heading as="h2">Projects</Heading>
         <Popover>

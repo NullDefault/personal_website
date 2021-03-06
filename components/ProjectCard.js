@@ -24,8 +24,8 @@ export function ProjectCard({
 }) {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const onLinkClick = (event) => {
-    event.stopPropagation()
-  }
+    event.stopPropagation();
+  };
   const { categories } = stack;
 
   return (
@@ -50,7 +50,12 @@ export function ProjectCard({
         {...rest}
       >
         <Box borderWidth={1}>
-          <Image alt={title} src={mainImageUrl} alignSelf="center" objectFit="fill" />
+          <Image
+            alt={title}
+            src={mainImageUrl}
+            alignSelf="center"
+            objectFit="fill"
+          />
         </Box>
 
         <Stack

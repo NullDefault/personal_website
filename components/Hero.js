@@ -10,7 +10,7 @@ import {
 import Tilt from "react-tilt";
 import CyberpunkText from "./CyberpunkText";
 import { useRouter } from "next/router";
-import {motion} from "framer-motion";
+import { motion } from "framer-motion";
 
 export default function Hero({
   title,
@@ -53,19 +53,19 @@ export default function Hero({
         </Heading>
         <Link to={ctaLink}>
           <motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
-          <Button
-            variant="outline"
-            onClick={() => {
-              router.push("/about");
-            }}
-            color="primary.800"
-            borderRadius="8px"
-            py="4"
-            px="4"
-            lineHeight="1"
-          >
-            {ctaText}
-          </Button>
+            <Button
+              variant="outline"
+              onClick={() => {
+                router.push("/about");
+              }}
+              color="primary.800"
+              borderRadius="8px"
+              py="4"
+              px="4"
+              lineHeight="1"
+            >
+              {ctaText}
+            </Button>
           </motion.button>
         </Link>
       </Stack>

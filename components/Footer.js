@@ -1,4 +1,4 @@
-import { Flex, HStack, IconButton, Text, VStack, Link } from "@chakra-ui/react";
+import { Flex, HStack, IconButton, Link } from "@chakra-ui/react";
 import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const iconData = {
@@ -46,15 +46,10 @@ export const Footer = (props) => (
       backgroundImage: "url('/texture.svg')",
     }}
   >
-    <VStack spacing="24px" w="100%">
-      <HStack spacing="32px">
-        <FooterIcon type="email" />
-        <FooterIcon type="LinkedIn" />
-        <FooterIcon type="GitHub" />
-      </HStack>
-      <Text pt="5vh" align="center">
-        Copyright 2021 - David Nesterov-Rappoport
-      </Text>
-    </VStack>
+    <HStack spacing="32px" w="100%">
+      <FooterIcon type="email" />
+      <FooterIcon type="LinkedIn" />
+      <FooterIcon type="GitHub" />
+    </HStack>
   </Flex>
 );
