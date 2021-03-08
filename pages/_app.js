@@ -1,12 +1,12 @@
 import "../styles/globals.css";
 import Head from "next/head";
-import { ChakraProvider } from "@chakra-ui/react";
 import { Footer } from "../components/Footer";
 import Header from "../components/Header";
+import {ChakraWrapper} from "../components/ChakraWrapper";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <ChakraProvider>
+    <ChakraWrapper cookies={pageProps.cookies}>
       <Head>
         <link rel="shortcut icon" href="/favicon.png" />
         <title>NullDefault</title>
@@ -14,8 +14,9 @@ function MyApp({ Component, pageProps }) {
       <Header />
       <Component {...pageProps} />
       <Footer />
-    </ChakraProvider>
+    </ChakraWrapper>
   );
 }
 
 export default MyApp;
+export { getServerSideProps } from "../components/ChakraWrapper";

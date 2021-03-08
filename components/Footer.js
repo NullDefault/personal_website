@@ -46,7 +46,7 @@ export const Footer = (props) => (
       backgroundImage: "url('/texture.svg')",
     }}
   >
-    <VStack  w="100%">
+    <VStack w="100%">
       <HStack spacing="32px">
         <FooterIcon type="email" />
         <FooterIcon type="LinkedIn" />
