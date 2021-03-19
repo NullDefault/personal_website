@@ -3,7 +3,6 @@ import PageTransition from "../components/PageTransition";
 import Section from "../components/Section";
 import interests from "../data/interests.json";
 import InterestTag from "../components/InterestTag";
-import CyberpunkText from "../components/CyberpunkText";
 
 function shuffle(array) {
   let currentIndex = array.length,

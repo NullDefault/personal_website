@@ -39,6 +39,7 @@ export const Footer = (props) => (
   <Flex
     as="footer"
     py="5rem"
+    mt="4rem"
     bg="gray.900"
     color="white"
     {...props}
