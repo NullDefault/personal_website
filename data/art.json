@@ -1,0 +1,92 @@
+[
+  {
+    "id": 0,
+    "title": "Abstract Sketch Art",
+    "image": "abstractbleed.jpg"
+  },
+  {
+    "id": 1,
+    "title": "Amphidont",
+    "image": "Amphidont.png"
+  },
+  {
+    "id": 2,
+    "title": "charcoal",
+    "image": "charcoal.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Colorful Self Portrait",
+    "image": "colorfulportrait.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Leptopod and Parasites",
+    "image": "LeptopodAndParasites.png"
+  },
+  {
+    "id": 5,
+    "title": "Tons of creatures",
+    "image": "many_creatures.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Bleeding Prints",
+    "image": "printbleeds.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Self Portraits",
+    "image": "selfportraits.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Shonohonoh",
+    "image": "shonohonoh.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Tlanak",
+    "image": "tlanak.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Ugmaruk",
+    "image": "ugmaruk.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Uhlezil",
+    "image": "uhlezil.jpg"
+  },
+  {
+    "id": 12,
+    "title": "yahlroodra",
+    "image": "yahlroodra.jpg"
+  },
+  {
+    "id": 13,
+    "title": "aquatic creatures",
+    "image": "aquatic_creatures.jpg"
+  },
+  {
+    "id": 14,
+    "title": "Hammers",
+    "image": "hammers.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Ink Monsters",
+    "image": "monsters.jpg"
+  },
+  {
+    "id": 16,
+    "title": "Sketches",
+    "image": "sketchcombo.jpg"
+  },
+  {
+    "id": 17,
+    "title": "Cosmic Body",
+    "image": "cosmicbody.jpg"
+  }
+]

@@ -27,7 +27,7 @@ const CharType = {
   Value: "value",
 };
 
-function shuffle(content, output, position) {
+function glyphShuffle(content, output, position) {
   return content.map((value, index) => {
     if (index < position) {
       return { type: CharType.Value, value };
@@ -65,7 +65,7 @@ const CyberpunkText = ({
     };
 
     const springValue = value(0, (position) => {
-      output.current = shuffle(content, output.current, position);
+      output.current = glyphShuffle(content, output.current, position);
       renderOutput();
     });
 
