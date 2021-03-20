@@ -2,7 +2,7 @@ import "../styles/globals.css";
 import Head from "next/head";
 import { Footer } from "../components/Footer";
 import Header from "../components/Header";
-import {ChakraWrapper} from "../components/ChakraWrapper";
+import { ChakraWrapper } from "../components/ChakraWrapper";
 
 function MyApp({ Component, pageProps }) {
   return (
