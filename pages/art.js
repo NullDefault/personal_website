@@ -12,7 +12,12 @@ export default function Art() {
         pt="3rem"
         direction="column"
       >
-        <Wrap align="center" justify="center" spacing={"10px"}>
+        <Wrap
+          align="center"
+          justify="center"
+          spacing={"10px"}
+          shouldWrapChildren={false}
+        >
           {shuffle(art).map(({ id, title, image }) => {
             return (
               <WrapItem key={id}>
