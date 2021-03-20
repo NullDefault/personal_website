@@ -55,8 +55,9 @@ const Header = (props) => {
           pt={[4, 4, 0, 0]}
         >
           <MenuItems to="/">Home</MenuItems>
-          <MenuItems to="/about">About Me </MenuItems>
-          <MenuItems to="/portfolio">Portfolio </MenuItems>
+          <MenuItems to="/about">About Me</MenuItems>
+          <MenuItems to="/portfolio">Portfolio</MenuItems>
+          <MenuItems to="/art">Art</MenuItems>
           <ColorModeSwitch />
         </Flex>
       </Box>
