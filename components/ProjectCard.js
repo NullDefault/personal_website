@@ -83,6 +83,9 @@ export function ProjectCard({
                   onClick={onLinkClick}
                   isExternal
                   aria-label="See project on GitHub"
+                  _hover={{
+                    color: "green.500"
+                  }}
                 >
                   <AiFillGithub>{githubUrl}</AiFillGithub>
                 </Link>
@@ -95,6 +98,9 @@ export function ProjectCard({
                   onClick={onLinkClick}
                   isExternal
                   aria-label="See project live version"
+                  _hover={{
+                    color: "blue.500"
+                  }}
                 >
                   <AiOutlineLink>{liveUrl}</AiOutlineLink>
                 </Link>

@@ -33,7 +33,8 @@ export function ProjectsList({ projects }) {
             <PopoverArrow />
             <PopoverCloseButton />
             <PopoverBody p={5}>
-              Click on the project cards to see more information about them!
+              Click on the project cards to see more information about them! The
+              icons are also interactive.
             </PopoverBody>
           </PopoverContent>
         </Popover>
@@ -41,11 +42,20 @@ export function ProjectsList({ projects }) {
 
       <SimpleGrid spacing={4} columns={[1, null, 2]}>
         {projects.map(
-          ({ title, stack, liveUrl, githubUrl, mainImage, description }) => {
+          ({
+            id,
+            title,
+            stack,
+            liveUrl,
+            githubUrl,
+            mainImage,
+            description,
+          }) => {
             const { url } = mainImage;
 
             return (
               <ProjectCard
+                key={id}
                 w={"90%"}
                 title={title}
                 stack={stack}

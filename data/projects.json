@@ -19,6 +19,24 @@
   },
   {
     "id": 1,
+    "title": "CS3",
+    "githubUrl": "https://github.com/DrewUniversityCS/CS3",
+    "description": "CS3: Computer Science CapStone Course Scheduler. A project developed to facilitate the process of scheduling college courses and managing the data generated in the process. Made by me and my teammates for CSCI 400: Capstone.",
+    "mainImage": {
+      "id": 0,
+      "url": "/cs3screenshot.png"
+    },
+    "stack": {
+      "id": 0,
+      "framework": "Django + Tailwind",
+      "language": "Python",
+      "libraries": ["TailwindCSS"],
+      "databases": ["MySQL", "CloudSQL"],
+      "categories": ["Frontend", "Backend"]
+    }
+  },
+  {
+    "id": 5,
     "title": "Drew Review",
     "liveUrl": "https://drewreview.vercel.app/",
     "githubUrl": "https://github.com/DrewUniversityCS/DrewReview",
