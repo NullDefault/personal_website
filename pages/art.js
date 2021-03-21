@@ -54,11 +54,11 @@ export default function Art() {
                   _groupHover={{ opacity: "1" }}
                 >
                   <Flex direction="column">
-                    <Text fontSize="2xl">{title}</Text>
-                    <Text fontSize="xl" pt="1rem">
+                    <Text fontSize={{ base: "md", md: "2xl" }}>{title}</Text>
+                    <Text fontSize={{ base: "sm", md: "xl" }} pt="1rem">
                       {description}
                     </Text>
-                    <Text fontSize="xl" pt="1rem">
+                    <Text fontSize={{ base: "sm", md: "xl" }} pt="1rem">
                       {medium}
                     </Text>
                   </Flex>
