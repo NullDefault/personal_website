@@ -1,4 +1,4 @@
-import { Flex, Image, Wrap, WrapItem } from "@chakra-ui/react";
+import { Flex, Image, Wrap, WrapItem, Skeleton } from "@chakra-ui/react";
 import PageTransition from "../components/PageTransition";
 import art from "../data/art.json";
 import shuffle from "../functions/shuffle";
@@ -23,10 +23,16 @@ export default function Art() {
               <WrapItem key={id}>
                 <Image
                   maxW={{ base: "350px", md: "800px" }}
-                  src={`art/${image}`}
+                  src={`arts/${image}`}
                   alt={title}
                   shadow="dark-lg"
                   bg="white"
+                  fallback={
+                    <Skeleton
+                      h={{ base: "200px", md: "400px" }}
+                      w={{ base: "300px", md: "600px" }}
+                    />
+                  }
                 />
               </WrapItem>
             );
