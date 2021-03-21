@@ -15,7 +15,7 @@ export default function Art() {
         <Wrap
           align="center"
           justify="center"
-          spacing={"10px"}
+          spacing={{base: "0px", md: "7rem"}}
           shouldWrapChildren={false}
         >
           {shuffle(art).map(({ id, title, image }) => {
@@ -23,6 +23,7 @@ export default function Art() {
               <WrapItem key={id}>
                 <Image
                   maxW={{ base: "350px", md: "800px" }}
+                  my={{base: "10px", md: ""}}
                   src={`art/${image}`}
                   alt={title}
                   shadow="dark-lg"
