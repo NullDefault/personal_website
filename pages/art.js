@@ -23,7 +23,7 @@ export default function Art() {
               <WrapItem key={id}>
                 <Image
                   maxW={{ base: "350px", md: "800px" }}
-                  src={`arts/${image}`}
+                  src={`art/${image}`}
                   alt={title}
                   shadow="dark-lg"
                   bg="white"
