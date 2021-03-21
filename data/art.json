@@ -1,92 +1,128 @@
 [
   {
     "id": 0,
-    "title": "Abstract Sketch Art",
-    "image": "abstractbleed.jpg"
+    "title": "Bleeding Colors",
+    "image": "abstractbleed.jpg",
+    "description": "Fancy colors and bleeding ink.",
+    "medium": "Ink on paper."
   },
   {
     "id": 1,
     "title": "Amphidont",
-    "image": "Amphidont.png"
+    "image": "Amphidont.png",
+    "description": "A piece I did for the Tira speculative evolution project.",
+    "medium": "Watercolor and Copic on paper.  Later transformed with Adobe Illustrator into digital art."
   },
   {
     "id": 2,
-    "title": "charcoal",
-    "image": "charcoal.jpg"
+    "title": "Nature Morte",
+    "image": "charcoal.jpg",
+    "description": "A charcoal drawing of mine from way back when.",
+    "medium": "Charcoal on paper."
   },
   {
     "id": 3,
-    "title": "Colorful Self Portrait",
-    "image": "colorfulportrait.jpg"
+    "title": "Color",
+    "image": "colorfulportrait.jpg",
+    "description": "Two abstract pieces from my sketchbook.",
+    "medium": "Copics on paper. Don't quite remember what was used on the left."
   },
   {
     "id": 4,
     "title": "Leptopod and Parasites",
-    "image": "LeptopodAndParasites.png"
+    "image": "LeptopodAndParasites.png",
+    "description": "A piece I did for the Tira speculative evolution project.",
+    "medium": "Copics on paper. Later transformed with Adobe Illustrator into digital art."
   },
   {
     "id": 5,
-    "title": "Tons of creatures",
-    "image": "many_creatures.jpg"
+    "title": "Zoo",
+    "image": "many_creatures.jpg",
+    "description": "The biggest piece of paper I have filled with monster drawings.",
+    "medium": "Ink on paper."
   },
   {
     "id": 6,
-    "title": "Bleeding Prints",
-    "image": "printbleeds.jpg"
+    "title": "Bleeding Imprints",
+    "image": "printbleeds.jpg",
+    "description": "One of my favourite experiments with melting printer ink onto paper.",
+    "medium": "Melted printer ink."
   },
   {
     "id": 7,
     "title": "Self Portraits",
-    "image": "selfportraits.jpg"
+    "image": "selfportraits.jpg",
+    "description": "A colorful self expression.",
+    "medium": "Copics on paper."
   },
   {
     "id": 8,
     "title": "Shonohonoh",
-    "image": "shonohonoh.jpg"
+    "image": "shonohonoh.jpg",
+    "description": "A marine bird that converged with orcas. Often attacks fishermen by jumping onto their boats.",
+    "medium": "Ink on paper."
   },
   {
     "id": 9,
     "title": "Tlanak",
-    "image": "tlanak.jpg"
+    "image": "tlanak.jpg",
+    "description": "My attempt at a more surreal alien. The memories of this creature are imprinted into its various shells.",
+    "medium": "Ink on paper."
   },
   {
     "id": 10,
     "title": "Ugmaruk",
-    "image": "ugmaruk.jpg"
+    "image": "ugmaruk.jpg",
+    "description": "A fictional kind of beetle, used as a mount by the royal guard in this imaginary world.",
+    "medium": "Pencil and ink on paper."
   },
   {
     "id": 11,
     "title": "Uhlezil",
-    "image": "uhlezil.jpg"
+    "image": "uhlezil.jpg",
+    "description": "A hypothetical descendant of octopus that looks suspiciously like an elephant.",
+    "medium": "Ink and markers on paper."
   },
   {
     "id": 12,
-    "title": "yahlroodra",
-    "image": "yahlroodra.jpg"
+    "title": "Yahlroodra",
+    "image": "yahlroodra.jpg",
+    "description": "A sentient molluscoid alien.",
+    "medium": "Copics on paper."
   },
   {
     "id": 13,
-    "title": "aquatic creatures",
-    "image": "aquatic_creatures.jpg"
+    "title": "Aquatic Creatures",
+    "image": "aquatic_creatures.jpg",
+    "description": "A marine assortment of various animals and that sort of thing.",
+    "medium": "Ink on paper."
   },
   {
     "id": 14,
-    "title": "Hammers",
-    "image": "hammers.jpg"
+    "title": "Hammer Time",
+    "image": "hammers.jpg",
+    "description": "A multimedia piece from my high school art class.",
+    "medium": "Pencil and prints."
   },
   {
     "id": 15,
     "title": "Ink Monsters",
-    "image": "monsters.jpg"
+    "image": "monsters.jpg",
+    "description": "A pair of monsters from my sketchbook.",
+    "medium": "Ink on paper."
   },
   {
     "id": 16,
-    "title": "Sketches",
-    "image": "sketchcombo.jpg"
+    "title": "Sketchbook",
+    "image": "sketchcombo.jpg",
+    "description": "A pairing of abstract sketches.",
+    "medium": "Ink on paper."
   },
   {
     "id": 17,
     "title": "Cosmic Body",
-    "image": "cosmicbody.jpg"
+    "image": "cosmicbody.jpg",
+    "description": "A piece from my final project in an art class I took at Drew.",
+    "medium": "India ink on paper."
   }
 ]
