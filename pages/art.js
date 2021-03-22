@@ -53,7 +53,7 @@ export default function Art() {
                   textAlign="center"
                   _groupHover={{ opacity: "1" }}
                 >
-                  <Flex direction="column" overflow="scroll">
+                  <Flex direction="column">
                     <Text fontSize={{ base: "md", md: "2xl" }}>{title}</Text>
                     <Text fontSize={{ base: "sm", md: "xl" }} pt="1rem">
                       {description}
