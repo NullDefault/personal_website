@@ -5,7 +5,6 @@ import {
   WrapItem,
   Skeleton,
   Box,
-  Center,
   Text,
 } from "@chakra-ui/react";
 import PageTransition from "../components/PageTransition";
@@ -17,20 +16,22 @@ export default function Art() {
     <PageTransition>
       <Flex
         minH="80vh"
+        width={{ base: "100vw", md: "90vw" }}
+        mx="auto"
         pt="3rem"
         direction="column"
       >
         <Wrap
           align="center"
           justify="center"
-          spacing={{ base: "0px", md: "7rem" }}
+          spacing={{ base: "0rem", md: "7rem" }}
         >
           {shuffle(art).map(({ id, title, image, description, medium }) => {
             return (
               <WrapItem key={id} role="group" position="relative">
                 <Image
-                  maxW={{ base: "350px", md: "800px" }}
-                  my={{ base: "10px", md: "" }}
+                  maxW={{ base: "350px", md: "1000px" }}
+                  m={{ base: "10px", md: "" }}
                   src={`art/${image}`}
                   alt={title}
                   shadow="dark-lg"

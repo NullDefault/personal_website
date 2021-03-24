@@ -13,11 +13,24 @@ import {
   ListIcon,
   ListItem,
   Stack,
+  Icon,
   Text,
   Wrap,
   WrapItem,
 } from "@chakra-ui/react";
-import { AiFillGithub, AiFillTool, AiOutlineLink } from "react-icons/ai";
+import {
+  AiFillGithub,
+  AiFillTool,
+  AiOutlineLink,
+  AiFillDatabase,
+  AiOutlineFolderView,
+} from "react-icons/ai";
+import {
+  SiMoleculer
+} from "react-icons/si";
+import {
+  BiGame
+} from "react-icons/bi";
 import { MdLanguage, MdLibraryBooks } from "react-icons/md";
 
 function ProjectDetailsListItem({ icon, title, value }) {
@@ -26,6 +39,23 @@ function ProjectDetailsListItem({ icon, title, value }) {
       <ListIcon as={icon} color="green.400" />
       <Text as="strong">{title}:</Text> {value}
     </ListItem>
+  );
+}
+
+function makeBadge(category) {
+  const iconDict = {
+    "Frontend": <Icon as={AiOutlineFolderView} fontSize={26} />,
+    "Backend": <Icon as={AiFillDatabase} fontSize={26} />,
+    "Simulation": <Icon as={SiMoleculer} fontSize={26} />,
+    "Game": <Icon as={BiGame} fontSize={26} />
+  }
+
+  return (
+    <Badge colorScheme="teal" variant="outline" size="lg" fontSize={18}>
+      <Box p={1}>
+        {category} {iconDict[category]}
+      </Box>
+    </Badge>
   );
 }
 
@@ -98,12 +128,8 @@ export function ProjectCard({
             ) : null}
           </Stack>
           <Wrap spacing={2} my="2%">
-            {stack.categories.map((technology) => (
-              <WrapItem key={technology}>
-                <Badge colorScheme="green" size="lg" fontSize={18}>
-                  {technology}
-                </Badge>
-              </WrapItem>
+            {stack.categories.map((category) => (
+              <WrapItem key={category}>{makeBadge(category)}</WrapItem>
             ))}
           </Wrap>
           <Accordion allowToggle width="100%">

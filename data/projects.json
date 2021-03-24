@@ -27,7 +27,7 @@
     },
     "stack": {
       "id": 5,
-      "languages": ["Python", "HTML", "CSS"],
+      "languages": ["Python", "HTML & CSS"],
       "frameworks": ["Django"],
       "otherTech": ["MySQL", "CloudSQL", "TailwindCSS", "Google App Engine"],
       "categories": ["Frontend", "Backend"]

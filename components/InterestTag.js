@@ -7,7 +7,7 @@ const InterestTag = ({ name, like }) => {
       <Tag
         size="lg"
         variant="subtle"
-        colorScheme={like ? "green" : "red"}
+        colorScheme={like ? "green" : "blue"}
         rounded="lg"
       >
         {name}

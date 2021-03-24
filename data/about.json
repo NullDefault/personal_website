@@ -19,5 +19,29 @@
     "Spiritual Naturalism",
     "Optimistic Nihilism",
     "Stoicism"
+  ],
+  "tech": [
+    "Python",
+    "Java",
+    "JavaScript",
+    "Dart",
+    "R",
+    "C#",
+    "SQL",
+    "HTML & CSS",
+    "GoLang",
+    "Git",
+    "Google Cloud Platform",
+    "Heroku",
+    "Unity",
+    "Django",
+    "Node.js",
+    "React.js",
+    "Next.js",
+    "Chakra UI",
+    "Tailwind CSS",
+    "Flutter",
+    "Firebase",
+    "Tableau"
   ]
 }

@@ -1,7 +1,7 @@
 import { VStack, Text, Wrap, Link, Heading } from "@chakra-ui/react";
 import PageTransition from "../components/PageTransition";
 import Section from "../components/Section";
-import interests from "../data/interests.json";
+import aboutData from "../data/about.json";
 import InterestTag from "../components/InterestTag";
 import shuffle from "../functions/shuffle";
 
@@ -83,9 +83,19 @@ const About = () => (
       </Section>
       <Section>
         <VStack align="stretch" spacing={4}>
+          <Heading>Tech I Know</Heading>
+          <Wrap>
+            {aboutData.tech.map((el) => (
+              <InterestTag name={el} />
+            ))}
+          </Wrap>
+        </VStack>
+      </Section>
+      <Section>
+        <VStack align="stretch" spacing={4}>
           <Heading>Things I Like</Heading>
           <Wrap>
-            {shuffle(interests.likes).map((el) => (
+            {shuffle(aboutData.likes).map((el) => (
               <InterestTag name={el} like />
             ))}
           </Wrap>
