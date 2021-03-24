@@ -17,7 +17,6 @@ export default function Art() {
     <PageTransition>
       <Flex
         minH="80vh"
-        w={{ base: "100%", md: "95%" }}
         pt="3rem"
         direction="column"
       >
