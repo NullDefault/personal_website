@@ -6,50 +6,48 @@
     "description": "Volunteer Log is a software solution for recording and and querying volunteer hours. Developed by me and my teammates for CSCI 340: Software Engineering. ",
     "mainImage": {
       "id": 0,
-      "url": "https://raw.githubusercontent.com/DrewUniversityCS/Volog/master/screenshots/stats-view.png"
+      "url": "volog.png"
     },
     "stack": {
       "id": 0,
-      "framework": "React.js + Django",
-      "language": "JavaScript and Python",
-      "libraries": ["Bootstrap", "Material Design"],
-      "databases": ["MySQL"],
-      "categories": ["Frontend", "Backend"]
-    }
-  },
-  {
-    "id": 1,
-    "title": "CS3",
-    "githubUrl": "https://github.com/DrewUniversityCS/CS3",
-    "description": "CS3: Computer Science CapStone Course Scheduler. A project developed to facilitate the process of scheduling college courses and managing the data generated in the process. Made by me and my teammates for CSCI 400: Capstone.",
-    "mainImage": {
-      "id": 0,
-      "url": "/cs3screenshot.png"
-    },
-    "stack": {
-      "id": 0,
-      "framework": "Django + Tailwind",
-      "language": "Python",
-      "libraries": ["TailwindCSS"],
-      "databases": ["MySQL", "CloudSQL"],
+      "languages": ["JavaScript", "Python"],
+      "frameworks": ["React.js", "Django"],
+      "otherTech": ["MySQL", "Bootstrap", "Material Design"],
       "categories": ["Frontend", "Backend"]
     }
   },
   {
     "id": 5,
+    "title": "CS3",
+    "githubUrl": "https://github.com/DrewUniversityCS/CS3",
+    "description": "CS3: Computer Science CapStone Course Scheduler. A project developed to facilitate the process of scheduling college courses and managing the data generated in the process. Made by me and my teammates for CSCI 400: Capstone.",
+    "mainImage": {
+      "id": 5,
+      "url": "cs3.png"
+    },
+    "stack": {
+      "id": 5,
+      "languages": ["Python", "HTML", "CSS"],
+      "frameworks": ["Django"],
+      "otherTech": ["MySQL", "CloudSQL", "TailwindCSS", "Google App Engine"],
+      "categories": ["Frontend", "Backend"]
+    }
+  },
+  {
+    "id": 1,
     "title": "Drew Review",
     "liveUrl": "https://drewreview.vercel.app/",
     "githubUrl": "https://github.com/DrewUniversityCS/DrewReview",
     "description": "Website for The Drew Review, the annual research journal for the undergraduates of the Drew University College of Liberal Arts. Allows visitors to explore and read the journal issues from past years.",
     "mainImage": {
       "id": 1,
-      "url": "https://raw.githubusercontent.com/DrewUniversityCS/DrewReview/main/public/screenshot.png"
+      "url": "drewreview.png"
     },
     "stack": {
       "id": 1,
-      "framework": "Next.js",
-      "language": "JavaScript",
-      "libraries": ["ChakraUI"],
+      "languages": ["JavaScript"],
+      "frameworks": ["React.js", "Next.js"],
+      "otherTech": ["ChakraUI"],
       "categories": ["Frontend"]
     }
   },
@@ -61,14 +59,13 @@
     "description": "The website I developed for the TEDxDrewUniversity organization, of which I am the Creative Lead of. The static website is fed data from a firebase backend which is accessible from inside the application via an admin interface.",
     "mainImage": {
       "id": 2,
-      "url": "https://raw.githubusercontent.com/NullDefault/TEDxDrewUWebsite/FileUploads/src/assets/PNG/screenshot1.png"
+      "url": "tedx.png"
     },
     "stack": {
       "id": 2,
-      "framework": "React.js",
-      "language": "JavaScript",
-      "libraries": ["ChakraUI"],
-      "databases": ["Firebase"],
+      "languages": ["JavaScript"],
+      "frameworks": ["React.js"],
+      "otherTech": ["ChakraUI", "Firebase"],
       "categories": ["Frontend", "Backend"]
     }
   },
@@ -79,13 +76,13 @@
     "description": "BeeSim is an exploration into how complex behavior emerges from the interaction of individually simple entities. The central goal of the simulation is to create emergent behavior without explicitly programming it.",
     "mainImage": {
       "id": 3,
-      "url": "https://raw.githubusercontent.com/NullDefault/beeSim/master/screenshots/screenshot2.png"
+      "url": "beesim.png"
     },
     "stack": {
       "id": 3,
-      "framework": "None",
-      "language": "Python",
-      "libraries": ["PyGame"],
+      "languages": ["Python"],
+      "frameworks": ["PyGame"],
+      "otherTech": [],
       "categories": ["Simulation", "Game"]
     }
   },
@@ -97,13 +94,13 @@
     "description": "My portfolio website made with my favourite technologies for frontend development. You are looking at it right now!",
     "mainImage": {
       "id": 4,
-      "url": "/screenshot.png"
+      "url": "screenshot.png"
     },
     "stack": {
       "id": 4,
-      "framework": "Next.js",
-      "language": "JavaScript",
-      "libraries": ["ChakraUI"],
+      "languages": ["JavaScript"],
+      "frameworks": ["React.js", "Next.js"],
+      "otherTech": ["ChakraUI"],
       "categories": ["Frontend"]
     }
   }

@@ -1,23 +1,22 @@
 import {
-  Flex,
-  SimpleGrid,
-  HStack,
-  VStack,
   Heading,
-  Popover,
-  PopoverTrigger,
-  PopoverContent,
-  PopoverArrow,
-  PopoverCloseButton,
-  PopoverBody,
+  HStack,
   IconButton,
+  Popover,
+  PopoverArrow,
+  PopoverBody,
+  PopoverCloseButton,
+  PopoverContent,
+  PopoverTrigger,
+  SimpleGrid,
+  VStack,
 } from "@chakra-ui/react";
 import { InfoIcon } from "@chakra-ui/icons";
 import { ProjectCard } from "./ProjectCard";
 
 export function ProjectsList({ projects }) {
   return (
-    <VStack width="full" spacing={7} alignItems="flex-start" pl={["5vw", ""]}>
+    <VStack spacing={7} alignItems="flex-start">
       <HStack pt={3}>
         <Heading as="h2">Projects</Heading>
         <Popover>
@@ -40,7 +39,7 @@ export function ProjectsList({ projects }) {
         </Popover>
       </HStack>
 
-      <SimpleGrid spacing={4} columns={[1, null, 2]}>
+      <SimpleGrid spacing={{ base: 4, md: 12 }} columns={{ base: 1, lg: 2 }}>
         {projects.map(
           ({
             id,
@@ -56,7 +55,6 @@ export function ProjectsList({ projects }) {
             return (
               <ProjectCard
                 key={id}
-                w={"90%"}
                 title={title}
                 stack={stack}
                 liveUrl={liveUrl}

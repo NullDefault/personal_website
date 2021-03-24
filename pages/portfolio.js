@@ -8,9 +8,8 @@ export default function Portfolio() {
     <PageTransition>
       <Flex
         direction="column"
-        align="center"
-        maxW={{ xl: "1200px" }}
         m="0 auto"
+        width="90%"
         pb={{ base: 24, md: 16 }}
       >
         <ProjectsList projects={projects} />
