@@ -7,7 +7,7 @@ import shuffle from "../functions/shuffle";
 
 const About = () => (
   <PageTransition>
-    <VStack spacing={8} pb={{ base: 24, md: 16 }}>
+    <VStack minH="100vh" spacing={8} pb={{ base: 24, md: 16 }}>
       <Section>
         <VStack align="start">
           <Heading>About</Heading>
@@ -85,18 +85,8 @@ const About = () => (
         <VStack align="stretch" spacing={4}>
           <Heading>Things I Like</Heading>
           <Wrap>
-            {shuffle(interests.like).map((el) => (
+            {shuffle(interests.likes).map((el) => (
               <InterestTag name={el} like />
-            ))}
-          </Wrap>
-        </VStack>
-      </Section>
-      <Section>
-        <VStack align="stretch" spacing={4}>
-          <Heading>Things I Dislike</Heading>
-          <Wrap>
-            {shuffle(interests.dislike).map((el) => (
-              <InterestTag name={el} />
             ))}
           </Wrap>
         </VStack>

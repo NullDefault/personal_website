@@ -1,5 +1,5 @@
 {
-  "like": [
+  "likes": [
     "Evolutionary Biology",
     "Systems Science",
     "Speculative Evolution",
@@ -19,16 +19,5 @@
     "Spiritual Naturalism",
     "Optimistic Nihilism",
     "Stoicism"
-  ],
-  "dislike": [
-    "Hypocrisy",
-    "Bureaucracy",
-    "Notifications",
-    "Advertisements",
-    "Authoritarianism",
-    "Censorship",
-    "Reductionist Philosophy",
-    "Denial of Evolution",
-    "Reality TV"
   ]
 }
