@@ -31,6 +31,9 @@ import {
 import {
   BiGame
 } from "react-icons/bi";
+import{
+  GiBrain
+} from "react-icons/gi";
 import { MdLanguage, MdLibraryBooks } from "react-icons/md";
 
 function ProjectDetailsListItem({ icon, title, value }) {
@@ -47,7 +50,8 @@ function makeBadge(category) {
     "Frontend": <Icon as={AiOutlineFolderView} fontSize={26} />,
     "Backend": <Icon as={AiFillDatabase} fontSize={26} />,
     "Simulation": <Icon as={SiMoleculer} fontSize={26} />,
-    "Game": <Icon as={BiGame} fontSize={26} />
+    "Game": <Icon as={BiGame} fontSize={26} />,
+    "Artificial Intelligence": <Icon as={GiBrain} fontSize={26} />
   }
 
   return (

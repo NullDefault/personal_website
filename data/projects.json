@@ -1,26 +1,9 @@
 [
   {
-    "id": 0,
-    "title": "Volog",
-    "githubUrl": "https://github.com/DrewUniversityCS/Volog",
-    "description": "Volunteer Log is a software solution for recording and and querying volunteer hours. Developed by me and my teammates for CSCI 340: Software Engineering. ",
-    "mainImage": {
-      "id": 0,
-      "url": "volog.png"
-    },
-    "stack": {
-      "id": 0,
-      "languages": ["JavaScript", "Python"],
-      "frameworks": ["React.js", "Django"],
-      "otherTech": ["MySQL", "Bootstrap", "Material Design"],
-      "categories": ["Frontend", "Backend"]
-    }
-  },
-  {
     "id": 5,
     "title": "CS3",
     "githubUrl": "https://github.com/DrewUniversityCS/CS3",
-    "description": "CS3: Computer Science CapStone Course Scheduler. A project developed to facilitate the process of scheduling college courses and managing the data generated in the process. Made by me and my teammates for CSCI 400: Capstone.",
+    "description": "A project developed for the head of the Drew University Math & Computer Science Department to facilitate the process of scheduling department courses and managing the data generated in the process.",
     "mainImage": {
       "id": 5,
       "url": "cs3.png"
@@ -34,11 +17,45 @@
     }
   },
   {
+    "id": 0,
+    "title": "Gym Stag Hunt",
+    "githubUrl": "https://github.com/NullDefault/Gym-Stag-Hunt",
+    "description": "A custom OpenAI Gym environment that implements various Stag Hunt games for reinforcement learning experiments. Developed as a part of my Honors Thesis on cooperation in multi-agent reinforcement learning.",
+    "mainImage": {
+      "id": 0,
+      "url": "staghunt.png"
+    },
+    "stack": {
+      "id": 0,
+      "languages": ["Python"],
+      "frameworks": ["OpenAI Gym", "PyGame"],
+      "otherTech": ["NumPy"],
+      "categories": ["Artificial Intelligence", "Simulation"]
+    }
+  },
+  {
+    "id": 0,
+    "title": "Volog",
+    "githubUrl": "https://github.com/DrewUniversityCS/Volog",
+    "description": "A full-stack web application for recording, managing, and analyzing volunteer engagement and hours. Features a fully decoupled React frontend and Django REST API backend.",
+    "mainImage": {
+      "id": 0,
+      "url": "volog.png"
+    },
+    "stack": {
+      "id": 0,
+      "languages": ["JavaScript", "Python"],
+      "frameworks": ["React.js", "Django"],
+      "otherTech": ["MySQL", "Bootstrap", "Material Design"],
+      "categories": ["Frontend", "Backend"]
+    }
+  },
+  {
     "id": 1,
     "title": "Drew Review",
     "liveUrl": "https://drewreview.vercel.app/",
     "githubUrl": "https://github.com/DrewUniversityCS/DrewReview",
-    "description": "Website for The Drew Review, the annual research journal for the undergraduates of the Drew University College of Liberal Arts. Allows visitors to explore and read the journal issues from past years.",
+    "description": "Website for The Drew Review, the annual research journal for the undergraduates of the Drew University College of Liberal Arts. Built to facilitate my duties as as the Senior Corresponding Editor and to allow the public to explore and read journal issues from past years.",
     "mainImage": {
       "id": 1,
       "url": "drewreview.png"
@@ -56,7 +73,7 @@
     "title": "TEDxDrewUniversity Website",
     "liveUrl": "https://tedxdrewuniversity.com/",
     "githubUrl": "https://github.com/NullDefault/TEDxDrewUWebsite",
-    "description": "The website I developed for the TEDxDrewUniversity organization, of which I am the Creative Lead of. The static website is fed data from a firebase backend which is accessible from inside the application via an admin interface.",
+    "description": "The website I developed for the TEDxDrewUniversity organization, where I was the former Creative Lead. The static website is fed data from a firebase backend which is accessible from inside the application via an admin interface.",
     "mainImage": {
       "id": 2,
       "url": "tedx.png"
@@ -91,7 +108,7 @@
     "title": "Portfolio",
     "liveUrl": "https://nulldefault.com/",
     "githubUrl": "https://github.com/NullDefault/personal_website",
-    "description": "My portfolio website made with my favourite technologies for frontend development. You are looking at it right now!",
+    "description": "My ever-evolving portfolio website, made with my favourite technologies for frontend development. You are looking at it right now!",
     "mainImage": {
       "id": 4,
       "url": "screenshot.png"
