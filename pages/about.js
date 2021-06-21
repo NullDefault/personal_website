@@ -18,24 +18,27 @@ const About = () => (
             <Link
               isExternal
               color="blue.500"
-              href={"https://tedxdrewuniversity.com/"}
-            >
-              TEDxDrewUniversity
-            </Link>{" "}
-            as the Creative Director, sit on the{" "}
-            <Link
-              isExternal
-              color="blue.500"
-              href={"https://drewreview.vercel.app/"}
+              href={
+                "https://www.drew.edu/library/2019/08/19/drew-publications/"
+              }
             >
               Drew Review
             </Link>{" "}
-            editorial board, and act as a co-president of the Drew University
-            Philosophical Society. My passions in life revolve around research,
-            design, and the creative applications of the former two to human
-            contexts. I pride myself on my ability to approach problems in novel
-            ways and draw from my multidisciplinary knowledge base to drive my
-            design process.
+            as the Senior Corresponding Editor, work as a Programming Fellow and
+            Tutor at the{" "}
+            <Link
+              isExternal
+              color="blue.500"
+              href={"https://www.drew.edu/center-academic-excellence/"}
+            >
+              Center for Academic Excellence
+            </Link>{" "}
+            , and act as a co-president of the Drew University Philosophical
+            Society. My passions in life revolve around research, design, and
+            the creative applications of the former two to human contexts. I
+            pride myself on my ability to approach problems in novel ways and
+            draw from my multidisciplinary knowledge base to drive my design
+            process.
           </Text>
         </VStack>
       </Section>
@@ -61,13 +64,13 @@ const About = () => (
             >
               Digital Humanities Institute
             </Link>
-            , and Programming Fellow at the{" "}
+            , and Creative Lead at{" "}
             <Link
               isExternal
               color="blue.500"
-              href="https://www.drew.edu/center-academic-excellence/"
+              href="https://tedxdrewuniversity.com/"
             >
-              Center for Academic Excellence
+              TEDxDrewUniversity
             </Link>
             . If you would like to learn more, please see my professional resume{" "}
             <Link color="blue.500" href="/resume.pdf">
