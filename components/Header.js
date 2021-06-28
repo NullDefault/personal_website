@@ -7,7 +7,7 @@ import { useState } from "react";
 const MenuItems = (props) => {
   const { children, isLast, to = "/", ...rest } = props;
   return (
-    <Link href={to} fontSize={22} _hover={{ fontSize: 28 }} {...rest}>
+    <Link href={to} fontSize={22} _hover={{ fontSize: 28, color: "blue.400" }} _focus={{}} {...rest}>
       <Text
         mb={{ base: isLast ? 0 : 8, sm: 0 }}
         mr={{ base: 0, sm: isLast ? 0 : 8 }}

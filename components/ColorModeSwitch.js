@@ -19,6 +19,7 @@ export const ColorModeSwitch = (props) => {
         marginLeft="2"
         onClick={toggleColorMode}
         icon={<SwitchIcon />}
+        _focus={{}}
         {...props}
       />
     </motion.button>
