@@ -7,7 +7,7 @@ import shuffle from "../functions/shuffle";
 
 const About = () => (
   <PageTransition>
-    <VStack minH="100vh" spacing={8} pb={{ base: 24, md: 16 }}>
+    <VStack minH="100vh" spacing={8} fontSize="xl" pb={{ base: 24, md: 16 }}>
       <Section>
         <VStack align="start">
           <Heading>About</Heading>
@@ -85,7 +85,7 @@ const About = () => (
         </VStack>
       </Section>
       <Section>
-        <VStack align="stretch" spacing={4}>
+        <VStack align="stretch" spacing={4} pb={4}>
           <Heading>Tech I Know</Heading>
           <Wrap>
             {aboutData.tech.map((el) => (
@@ -95,7 +95,7 @@ const About = () => (
         </VStack>
       </Section>
       <Section>
-        <VStack align="stretch" spacing={4}>
+        <VStack align="stretch" spacing={4} pb={4}>
           <Heading>Things I Like</Heading>
           <Wrap>
             {shuffle(aboutData.likes).map((el) => (
