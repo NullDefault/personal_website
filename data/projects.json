@@ -55,7 +55,7 @@
     "title": "Drew Review",
     "liveUrl": "https://drewreview.vercel.app/",
     "githubUrl": "https://github.com/DrewUniversityCS/DrewReview",
-    "description": "Website for The Drew Review, the annual research journal for the undergraduates of the Drew University College of Liberal Arts. Built to facilitate my duties as as the Senior Corresponding Editor and to allow the public to explore and read journal issues from past years.",
+    "description": "Website for The Drew Review, the annual research journal for the undergraduates of the Drew University College of Liberal Arts. Built to facilitate my duties as the Senior Corresponding Editor and to allow the public to explore and read journal issues from past years.",
     "mainImage": {
       "id": 1,
       "url": "drewreview.png"
