@@ -1,4 +1,12 @@
-import { Flex, HStack, IconButton, Link, VStack } from "@chakra-ui/react";
+import {
+  Flex,
+  HStack,
+  IconButton,
+  Link,
+  VStack,
+  Image,
+  useColorModeValue,
+} from "@chakra-ui/react";
 import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const iconData = {
@@ -36,23 +44,18 @@ const FooterIcon = ({ type }) => {
 };
 
 export const Footer = (props) => (
-  <Flex
-    as="footer"
-    py="5rem"
-    mt="4rem"
-    bg="gray.900"
-    color="white"
-    {...props}
-    style={{
-      backgroundImage: "url('/texture.svg')",
-    }}
-  >
+  <Flex as="footer" py="5rem" mt="4rem" bg="black" color="white" {...props}>
     <VStack w="100%">
       <HStack spacing="32px">
         <FooterIcon type="email" />
         <FooterIcon type="LinkedIn" />
         <FooterIcon type="GitHub" />
       </HStack>
+      <Image
+        src="/nulldefault.svg"
+        w={["40vw", "20vw"]}
+        style={{ WebkitFilter: "invert(1)", filter: "invert(1)" }}
+      />
     </VStack>
   </Flex>
 );
