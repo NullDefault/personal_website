@@ -37,7 +37,7 @@ const Header = (props) => {
       {...props}
     >
       <Flex align="center">
-        <NavLogo w={["50px", "80px"]} />
+        <NavLogo w={["60px", "120px"]} />
       </Flex>
 
       <Box display={{ base: "block", md: "none" }} onClick={toggleMenu}>
