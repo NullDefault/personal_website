@@ -85,8 +85,8 @@ export function ProjectCard({
           src={`screenshots/${mainImageUrl}`}
           fallback={
             <Skeleton
-              h="1903px"
-              w="978px"
+              h="40vh"
+              w="100%"
             />
           }
         />
