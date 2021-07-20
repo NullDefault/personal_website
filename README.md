@@ -1,4 +1,4 @@
-<img src="https://github.com/NullDefault/personal_website/blob/master/public/nullLogo.svg" width="128" height="128">
+<img src="https://github.com/NullDefault/personal_website/blob/master/public/sketchlogo.svg" width="128" height="128">
 
 # David Nesterov-Rappoport Personal Website
 
