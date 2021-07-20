@@ -17,6 +17,7 @@ import {
   Text,
   Wrap,
   WrapItem,
+  Skeleton,
 } from "@chakra-ui/react";
 import {
   AiFillGithub,
@@ -25,15 +26,9 @@ import {
   AiFillDatabase,
   AiOutlineFolderView,
 } from "react-icons/ai";
-import {
-  SiMoleculer
-} from "react-icons/si";
-import {
-  BiGame
-} from "react-icons/bi";
-import{
-  GiBrain
-} from "react-icons/gi";
+import { SiMoleculer } from "react-icons/si";
+import { BiGame } from "react-icons/bi";
+import { GiBrain } from "react-icons/gi";
 import { MdLanguage, MdLibraryBooks } from "react-icons/md";
 
 function ProjectDetailsListItem({ icon, title, value }) {
@@ -47,12 +42,12 @@ function ProjectDetailsListItem({ icon, title, value }) {
 
 function makeBadge(category) {
   const iconDict = {
-    "Frontend": <Icon as={AiOutlineFolderView} fontSize={26} />,
-    "Backend": <Icon as={AiFillDatabase} fontSize={26} />,
-    "Simulation": <Icon as={SiMoleculer} fontSize={26} />,
-    "Game": <Icon as={BiGame} fontSize={26} />,
-    "Artificial Intelligence": <Icon as={GiBrain} fontSize={26} />
-  }
+    Frontend: <Icon as={AiOutlineFolderView} fontSize={26} />,
+    Backend: <Icon as={AiFillDatabase} fontSize={26} />,
+    Simulation: <Icon as={SiMoleculer} fontSize={26} />,
+    Game: <Icon as={BiGame} fontSize={26} />,
+    "Artificial Intelligence": <Icon as={GiBrain} fontSize={26} />,
+  };
 
   return (
     <Badge colorScheme="teal" variant="outline" size="lg" fontSize={18}>
@@ -85,7 +80,16 @@ export function ProjectCard({
       {...rest}
     >
       <Box borderWidth={1}>
-        <Image alt={title} src={`screenshots/${mainImageUrl}`} />
+        <Image
+          alt={title}
+          src={`screenshots/${mainImageUrl}`}
+          fallback={
+            <Skeleton
+              h="1903px"
+              w="978px"
+            />
+          }
+        />
       </Box>
       <Stack
         spacing={2}
