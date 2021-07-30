@@ -31,7 +31,8 @@ const Header = (props) => {
       justify="space-between"
       wrap="wrap"
       w="100%"
-      p={8}
+      pt={8}
+      px={8}
       bg="transparent"
       color={textColor}
       {...props}

@@ -1,4 +1,13 @@
-import { VStack, Text, Wrap, Link, Heading } from "@chakra-ui/react";
+import {
+  VStack,
+  Text,
+  Wrap,
+  Link,
+  Heading,
+  Avatar,
+  Flex,
+  useColorModeValue,
+} from "@chakra-ui/react";
 import PageTransition from "../components/PageTransition";
 import Section from "../components/Section";
 import aboutData from "../data/about.json";
@@ -10,6 +19,16 @@ const About = () => (
     <VStack minH="100vh" spacing={8} fontSize="xl" pb={{ base: 24, md: 16 }}>
       <Section>
         <VStack align="start">
+          <Flex w="full" justify="center">
+            <Avatar
+              bg={useColorModeValue("black", "white")}
+              size="full"
+              loading="eager"
+              name="David Nesterov-Rappoport"
+              src="/Portreto.png"
+              w="200px"
+            />
+          </Flex>
           <Heading>About</Heading>
           <Text>
             I am currently an undergraduate at Drew University, majoring in

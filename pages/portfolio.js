@@ -11,6 +11,7 @@ export default function Portfolio() {
         m="0 auto"
         width="90%"
         pb={{ base: 24, md: 16 }}
+        pt={8}
       >
         <ProjectsList projects={projects} />
       </Flex>
