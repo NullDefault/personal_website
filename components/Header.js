@@ -47,6 +47,7 @@ const Header = (props) => {
 
       <Box
         display={{ base: show ? "block" : "none", md: "block" }}
+        pb={{base: show ? 8 : 0}}
         flexBasis={{ base: "100%", md: "auto" }}
       >
         <Flex
