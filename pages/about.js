@@ -27,6 +27,7 @@ const About = () => (
               name="David Nesterov-Rappoport"
               src="/Portreto.png"
               w="200px"
+              h="200px"
             />
           </Flex>
           <Heading>About</Heading>
