@@ -54,7 +54,7 @@ const Carousel = ({ slides }) => {
       justifyContent="center"
     >
       <Flex
-        h={{ base: "200px", md: "400px" }}
+        h={{ base: "", md: "400px" }}
         w="full"
         overflow="hidden"
         pos="relative"
