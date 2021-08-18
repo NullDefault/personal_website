@@ -18,11 +18,10 @@ export function ProjectsList({ projects }) {
       <SimpleGrid spacing={{ base: 4, md: 12 }} columns={{ base: 1, lg: 2 }}>
         {projects.map(
           (
-            { id, title, stack, liveUrl, githubUrl, mainImage, description },
+            { id, title, stack, liveUrl, githubUrl, slides, description },
             i,
             arr
           ) => {
-            const { url } = mainImage;
             let breakpoint = useBreakpointValue({ base: false, lg: true });
             let projectCard = (
               <ProjectCard
@@ -31,7 +30,7 @@ export function ProjectsList({ projects }) {
                 stack={stack}
                 liveUrl={liveUrl}
                 githubUrl={githubUrl}
-                mainImageUrl={url}
+                slides={slides}
                 description={description}
               />
             );

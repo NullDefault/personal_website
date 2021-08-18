@@ -4,10 +4,23 @@
     "title": "CS3",
     "githubUrl": "https://github.com/DrewUniversityCS/CS3",
     "description": "A project developed for the head of the Drew University Math & Computer Science Department to facilitate the process of scheduling department courses and managing the data generated in the process.",
-    "mainImage": {
-      "id": 5,
-      "url": "cs3.png"
-    },
+    "slides": [
+      {
+        "img": "cs3/mainPage.png"
+      },
+      {
+        "img": "cs3/crudMenu.png"
+      },
+      {
+        "img": "cs3/crudPage.png"
+      },
+      {
+        "img": "cs3/dataTable.png"
+      },
+      {
+        "img": "cs3/scheduleView.png"
+      }
+    ],
     "stack": {
       "id": 5,
       "languages": ["Python", "HTML & CSS"],
@@ -21,10 +34,14 @@
     "title": "Gym Stag Hunt",
     "githubUrl": "https://github.com/NullDefault/Gym-Stag-Hunt",
     "description": "A custom OpenAI Gym environment that implements various Stag Hunt games for reinforcement learning experiments. Developed as a part of my Honors Thesis on cooperation in multi-agent reinforcement learning.",
-    "mainImage": {
-      "id": 0,
-      "url": "staghunt.png"
-    },
+    "slides": [
+      {
+        "img": "staghunt/stagHunt.png"
+      },
+      {
+        "img": "staghunt/stagHuntThree.png"
+      }
+    ],
     "stack": {
       "id": 0,
       "languages": ["Python"],
@@ -38,10 +55,24 @@
     "title": "Volog",
     "githubUrl": "https://github.com/DrewUniversityCS/Volog",
     "description": "A full-stack web application for recording, managing, and analyzing volunteer engagement and hours. Features a fully decoupled React frontend and Django REST API backend.",
-    "mainImage": {
-      "id": 0,
-      "url": "volog.png"
-    },
+    "slides": [
+      {
+        "img": "volog/login.png"
+      },
+      {
+        "img": "volog/profile.png"
+      },
+      {
+        "img": "volog/statsView.png"
+      },
+      {
+        "img": "volog/form.png"
+      },
+
+      {
+        "img": "volog/feedbackForm.png"
+      }
+    ],
     "stack": {
       "id": 0,
       "languages": ["JavaScript", "Python"],
@@ -55,11 +86,21 @@
     "title": "Drew Review",
     "liveUrl": "https://drewreview.vercel.app/",
     "githubUrl": "https://github.com/DrewUniversityCS/DrewReview",
-    "description": "Website for The Drew Review, the annual research journal for the undergraduates of the Drew University College of Liberal Arts. Built to facilitate my duties as the Senior Corresponding Editor and to allow the public to explore and read journal issues from past years.",
-    "mainImage": {
-      "id": 1,
-      "url": "drewreview.png"
-    },
+    "description": "Prototype website for The Drew Review, the annual research journal for the undergraduates of the Drew University College of Liberal Arts. Designed to facilitate my duties as the Senior Corresponding Editor and to allow the public to explore and read journal issues from past years.",
+    "slides": [
+      {
+        "img": "drewreview/main.png"
+      },
+      {
+        "img": "drewreview/application.png"
+      },
+      {
+        "img": "drewreview/formPreamble.png"
+      },
+      {
+        "img": "drewreview/paperReview.png"
+      }
+    ],
     "stack": {
       "id": 1,
       "languages": ["JavaScript"],
@@ -74,10 +115,20 @@
     "liveUrl": "https://tedxdrewuniversity.com/",
     "githubUrl": "https://github.com/NullDefault/TEDxDrewUWebsite",
     "description": "The website I developed for the TEDxDrewUniversity organization, where I was the former Creative Lead. The static website is fed data from a firebase backend which is accessible from inside the application via an admin interface.",
-    "mainImage": {
-      "id": 2,
-      "url": "tedx.png"
-    },
+    "slides": [
+      {
+        "img": "tedx/main.png"
+      },
+      {
+        "img": "tedx/about.png"
+      },
+      {
+        "img": "tedx/videoGallery.png"
+      },
+      {
+        "img": "tedx/admin.png"
+      }
+    ],
     "stack": {
       "id": 2,
       "languages": ["JavaScript"],
@@ -91,10 +142,17 @@
     "title": "BeeSim",
     "githubUrl": "https://github.com/NullDefault/beeSim",
     "description": "BeeSim is an exploration into how complex behavior emerges from the interaction of individually simple entities. The central goal of the simulation is to create emergent behavior without explicitly programming it.",
-    "mainImage": {
-      "id": 3,
-      "url": "beesim.png"
-    },
+    "slides": [
+      {
+        "img": "beesim/menu.png"
+      },
+      {
+        "img": "beesim/beesim.png"
+      },
+      {
+        "img": "beesim/zoomin.png"
+      }
+    ],
     "stack": {
       "id": 3,
       "languages": ["Python"],
@@ -109,10 +167,11 @@
     "liveUrl": "https://nulldefault.com/",
     "githubUrl": "https://github.com/NullDefault/personal_website",
     "description": "My ever-evolving portfolio website, made with my favourite technologies for frontend development. You are looking at it right now!",
-    "mainImage": {
-      "id": 4,
-      "url": "screenshot.png"
-    },
+    "slides": [
+      {
+        "img": "screenshot.png"
+      }
+    ],
     "stack": {
       "id": 4,
       "languages": ["JavaScript"],

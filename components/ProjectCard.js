@@ -30,6 +30,7 @@ import { SiMoleculer } from "react-icons/si";
 import { BiGame } from "react-icons/bi";
 import { GiBrain } from "react-icons/gi";
 import { MdLanguage, MdLibraryBooks } from "react-icons/md";
+import Carousel from "./Carousel";
 
 function ProjectDetailsListItem({ icon, title, value }) {
   return (
@@ -64,7 +65,7 @@ export function ProjectCard({
   liveUrl,
   githubUrl,
   description,
-  mainImageUrl,
+  slides,
   ...rest
 }) {
   const frameworks = (stack.frameworks ?? []).join(", ");
@@ -80,16 +81,7 @@ export function ProjectCard({
       {...rest}
     >
       <Box borderWidth={1}>
-        <Image
-          alt={title}
-          src={`screenshots/${mainImageUrl}`}
-          fallback={
-            <Skeleton
-              h="40vh"
-              w="100%"
-            />
-          }
-        />
+        <Carousel slides={slides}/>
       </Box>
       <Stack
         spacing={2}
