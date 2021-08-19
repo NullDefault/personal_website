@@ -21,7 +21,6 @@ const Carousel = ({ slides }) => {
     fontWeight: "bold",
     fontSize: "18px",
     transition: "0.6s ease",
-    borderRadius: "0 3px 3px 0",
     userSelect: "none",
     _hover: {
       opacity: 0.8,
@@ -91,10 +90,10 @@ const Carousel = ({ slides }) => {
         </Flex>
         {slidesCount !== 1 ? (
           <div>
-            <Text {...arrowStyles} left="0" onClick={prevSlide}>
+            <Text {...arrowStyles} left="0" roundedRight="lg" onClick={prevSlide}>
               &#10094;
             </Text>
-            <Text {...arrowStyles} right="0" onClick={nextSlide}>
+            <Text {...arrowStyles} right="0" roundedLeft="lg" onClick={nextSlide}>
               &#10095;
             </Text>{" "}
           </div>
