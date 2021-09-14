@@ -7,7 +7,6 @@ import {
   Badge,
   Box,
   Heading,
-  Image,
   Link,
   List,
   ListIcon,
@@ -17,7 +16,6 @@ import {
   Text,
   Wrap,
   WrapItem,
-  Skeleton,
 } from "@chakra-ui/react";
 import {
   AiFillGithub,
@@ -80,7 +78,7 @@ export function ProjectCard({
       borderWidth={0.5}
       {...rest}
     >
-      <Box borderWidth={1}>
+      <Box w="100%">
         <Carousel slides={slides}/>
       </Box>
       <Stack

@@ -53,7 +53,6 @@ const Carousel = ({ slides }) => {
       justifyContent="center"
     >
       <Flex
-        h={{ base: "", md: "400px" }}
         w="full"
         overflow="hidden"
         pos="relative"
@@ -83,6 +82,8 @@ const Carousel = ({ slides }) => {
                 src={"/screenshots/" + slide.img}
                 boxSize="full"
                 backgroundSize="cover"
+                w="100%"
+                h="100%"
                 fallback={<Skeleton h="40vh" w="100%" />}
               />
             </Box>
