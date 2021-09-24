@@ -94,7 +94,7 @@ const Carousel = ({ slides }) => {
                 />
                 <Text
                   fontSize="xs"
-                  display={{ sm: "none", md: "block" }}
+                  display={{ base: "none", md: "block" }}
                   p="8px 12px"
                   pos="absolute"
                   top="0"
