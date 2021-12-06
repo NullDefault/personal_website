@@ -1,5 +1,5 @@
 import { Flex, Text } from "@chakra-ui/react";
-import PageTransition from "../components/PageTransition";
+import PageTransition from "../components/structural/PageTransition";
 
 export default function Home() {
   return (
