@@ -1,7 +1,7 @@
 import { Box, Flex, Text, Link, useColorModeValue } from "@chakra-ui/react";
 import { FaWindowClose, FaBars } from "react-icons/fa";
-import { NavLogo } from "./NavLogo";
-import { ColorModeSwitch } from "./ColorModeSwitch";
+import { NavLogo } from "../NavLogo";
+import { ColorModeSwitch } from "../ColorModeSwitch";
 import { useState } from "react";
 
 const MenuItems = (props) => {

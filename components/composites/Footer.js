@@ -5,7 +5,6 @@ import {
   Link,
   VStack,
   Image,
-  useColorModeValue,
 } from "@chakra-ui/react";
 import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
 

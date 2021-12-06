@@ -3,7 +3,7 @@ import {
   cookieStorageManager,
   localStorageManager,
 } from "@chakra-ui/react";
-import theme from "../styles/theme";
+import theme from "../../styles/theme";
 
 export function ChakraWrapper({ cookies, children }) {
   // b) Pass `colorModeManager` prop

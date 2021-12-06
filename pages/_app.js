@@ -1,8 +1,8 @@
 import "../styles/globals.css";
 import Head from "next/head";
-import { Footer } from "../components/Footer";
-import Header from "../components/Header";
-import { ChakraWrapper } from "../components/ChakraWrapper";
+import { Footer } from "../components/composites/Footer";
+import Header from "../components/composites/Header";
+import { ChakraWrapper } from "../components/structural/ChakraWrapper";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -19,4 +19,4 @@ function MyApp({ Component, pageProps }) {
 }
 
 export default MyApp;
-export { getServerSideProps } from "../components/ChakraWrapper";
+export { getServerSideProps } from "../components/structural/ChakraWrapper";

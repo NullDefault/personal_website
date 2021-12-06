@@ -7,7 +7,7 @@ import {
   Box,
   Text,
 } from "@chakra-ui/react";
-import PageTransition from "../components/PageTransition";
+import PageTransition from "../components/structural/PageTransition";
 import art from "../data/art.json";
 import shuffle from "../functions/shuffle";
 

@@ -1,6 +1,6 @@
 import { Flex } from "@chakra-ui/react";
-import PageTransition from "../components/PageTransition";
-import { ProjectsList } from "../components/ProjectsList";
+import PageTransition from "../components/structural/PageTransition";
+import { ProjectsList } from "../components/composites/ProjectsList";
 import projects from "../data/projects.json";
 
 export default function Portfolio() {

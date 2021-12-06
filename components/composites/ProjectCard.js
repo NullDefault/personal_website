@@ -28,7 +28,7 @@ import { SiMoleculer } from "react-icons/si";
 import { BiGame } from "react-icons/bi";
 import { GiBrain } from "react-icons/gi";
 import { MdLanguage, MdLibraryBooks } from "react-icons/md";
-import Carousel from "./Carousel";
+import Carousel from "../Carousel";
 
 function ProjectDetailsListItem({ icon, title, value }) {
   return (
