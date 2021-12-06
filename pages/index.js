@@ -1,25 +1,24 @@
-import { Flex } from "@chakra-ui/react";
-import Hero from "../components/Hero";
+import { Flex, Avatar, useColorModeValue } from "@chakra-ui/react";
+import AboutSection from "../components/AboutSection";
+import CyberpunkText from "../components/CyberpunkText";
 import PageTransition from "../components/PageTransition";
 
 export default function Home() {
   return (
     <PageTransition>
-      <Flex
-        direction="column"
-        align="center"
-        maxW={{ xl: "1200px" }}
-        m="0 auto"
-        pt={8}
-      >
-        <Hero
-          title="Hi, I'm David."
-          subtitle="I'm a software engineer and designer."
-          image="/doodles.svg"
-          ctaText="Learn more about me"
-          ctaLink="/about"
+      <Flex w="full" justify="center" align="center" direction="column" textAlign="center">
+        <Avatar
+          bg={useColorModeValue("black", "white")}
+          size="full"
+          loading="eager"
+          name="David Nesterov-Rappoport"
+          src="/Portreto.png"
+          w="240px"
+          h="240px"
         />
+        <CyberpunkText text={"Hi, I'm David."} />
       </Flex>
+      <AboutSection mt={24}/>
     </PageTransition>
   );
 }
