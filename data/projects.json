@@ -1,6 +1,6 @@
 [
   {
-    "id": 5,
+    "id": 0,
     "title": "CS3",
     "githubUrl": "https://github.com/DrewUniversityCS/CS3",
     "description": "A project developed for the head of the Drew University Math & Computer Science Department to facilitate the process of scheduling department courses and managing the data generated in the process.",
@@ -22,7 +22,7 @@
       }
     ],
     "stack": {
-      "id": 5,
+      "id": 0,
       "languages": ["Python", "HTML & CSS"],
       "frameworks": ["Django"],
       "otherTech": ["MySQL", "CloudSQL", "TailwindCSS", "Google App Engine"],
@@ -30,7 +30,7 @@
     }
   },
   {
-    "id": 0,
+    "id": 1,
     "title": "Gym Stag Hunt",
     "githubUrl": "https://github.com/NullDefault/Gym-Stag-Hunt",
     "description": "A custom OpenAI Gym environment that implements various Stag Hunt games for reinforcement learning experiments. Developed as a part of my Honors Thesis on cooperation in multi-agent reinforcement learning.",
@@ -43,7 +43,7 @@
       }
     ],
     "stack": {
-      "id": 0,
+      "id": 1,
       "languages": ["Python"],
       "frameworks": ["OpenAI Gym", "PyGame"],
       "otherTech": ["NumPy"],
@@ -51,7 +51,7 @@
     }
   },
   {
-    "id": 0,
+    "id": 2,
     "title": "Volog",
     "githubUrl": "https://github.com/DrewUniversityCS/Volog",
     "description": "A full-stack web application for recording, managing, and analyzing volunteer engagement and hours. Features a fully decoupled React frontend and Django REST API backend.",
@@ -74,7 +74,7 @@
       }
     ],
     "stack": {
-      "id": 0,
+      "id": 2,
       "languages": ["JavaScript", "Python"],
       "frameworks": ["React.js", "Django"],
       "otherTech": ["MySQL", "Bootstrap", "Material Design"],
@@ -82,7 +82,7 @@
     }
   },
   {
-    "id": 1,
+    "id": 3,
     "title": "Drew Review",
     "liveUrl": "https://drewreview.vercel.app/",
     "githubUrl": "https://github.com/DrewUniversityCS/DrewReview",
@@ -102,7 +102,7 @@
       }
     ],
     "stack": {
-      "id": 1,
+      "id": 3,
       "languages": ["JavaScript"],
       "frameworks": ["React.js", "Next.js"],
       "otherTech": ["ChakraUI"],
@@ -110,7 +110,7 @@
     }
   },
   {
-    "id": 2,
+    "id": 4,
     "title": "TEDxDrewUniversity Website",
     "liveUrl": "https://tedxdrewuniversity.com/",
     "githubUrl": "https://github.com/NullDefault/TEDxDrewUWebsite",
@@ -130,7 +130,7 @@
       }
     ],
     "stack": {
-      "id": 2,
+      "id": 4,
       "languages": ["JavaScript"],
       "frameworks": ["React.js"],
       "otherTech": ["ChakraUI", "Firebase"],
@@ -138,7 +138,7 @@
     }
   },
   {
-    "id": 3,
+    "id": 5,
     "title": "BeeSim",
     "githubUrl": "https://github.com/NullDefault/beeSim",
     "description": "BeeSim is an exploration into how complex behavior emerges from the interaction of individually simple entities. The central goal of the simulation is to create emergent behavior without explicitly programming it.",
@@ -154,7 +154,7 @@
       }
     ],
     "stack": {
-      "id": 3,
+      "id": 5,
       "languages": ["Python"],
       "frameworks": ["PyGame"],
       "otherTech": [],
@@ -162,7 +162,7 @@
     }
   },
   {
-    "id": 4,
+    "id": 6,
     "title": "Portfolio",
     "liveUrl": "https://nulldefault.com/",
     "githubUrl": "https://github.com/NullDefault/personal_website",
@@ -173,7 +173,7 @@
       }
     ],
     "stack": {
-      "id": 4,
+      "id": 6,
       "languages": ["JavaScript"],
       "frameworks": ["React.js", "Next.js"],
       "otherTech": ["ChakraUI"],
