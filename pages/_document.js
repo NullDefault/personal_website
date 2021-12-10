@@ -7,7 +7,6 @@ export default class Document extends NextDocument {
     return (
       <Html lang="en">
         <Head>
-          <title>NullDefault</title>
           <meta property="og:url" content="https://www.nulldefault.com/" />
           <meta property="og:type" content="Portfolio Website" />
           <meta property="og:title" content="David Nesterov-Rappoport's Online Portfolio" />

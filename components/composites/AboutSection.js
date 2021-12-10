@@ -1,10 +1,4 @@
-import {
-  VStack,
-  Text,
-  Wrap,
-  Link,
-  Heading,
-} from "@chakra-ui/react";
+import { VStack, Text, Wrap, Link, Heading } from "@chakra-ui/react";
 import Section from "../structural/Section";
 import aboutData from "../../data/about.json";
 import InterestTag from "../InterestTag";
@@ -35,11 +29,12 @@ const AboutSection = () => (
           >
             Center for Academic Excellence
           </Link>{" "}
-          , and am researching Multi-Agent Reinforcement Learning for my Honors Thesis.
-          My passions in life revolve around research, design, quality engineering, and the
-          creative applications of the former three to human contexts. I pride
-          myself on my ability to approach problems in novel ways and draw from
-          my multidisciplinary knowledge base to drive my design process.
+          , and am researching Multi-Agent Reinforcement Learning for my Honors
+          Thesis. My passions in life revolve around research, design, quality
+          engineering, and the creative applications of the former three to
+          human contexts. I pride myself on my ability to approach problems in
+          novel ways and draw from my multidisciplinary knowledge base to drive
+          my design process.
         </Text>
       </VStack>
     </Section>
@@ -85,8 +80,8 @@ const AboutSection = () => (
       <VStack align="stretch" spacing={4} pb={4}>
         <Heading>Tech I Know</Heading>
         <Wrap>
-          {aboutData.tech.map((el) => (
-            <InterestTag name={el} />
+          {aboutData.tech.map((el, index) => (
+            <InterestTag name={el} key={index} />
           ))}
         </Wrap>
       </VStack>
@@ -95,8 +90,8 @@ const AboutSection = () => (
       <VStack align="stretch" spacing={4} pb={4}>
         <Heading>Things I Like</Heading>
         <Wrap>
-          {shuffle(aboutData.likes).map((el) => (
-            <InterestTag name={el} like />
+          {shuffle(aboutData.likes).map((el, index) => (
+            <InterestTag name={el} key={index} like />
           ))}
         </Wrap>
       </VStack>

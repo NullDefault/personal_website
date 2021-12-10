@@ -1,5 +1,5 @@
-import "../styles/globals.css";
 import Head from "next/head";
+import "../styles/globals.css";
 import { Footer } from "../components/composites/Footer";
 import Header from "../components/composites/Header";
 import { ChakraWrapper } from "../components/structural/ChakraWrapper";
