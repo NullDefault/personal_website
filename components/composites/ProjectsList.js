@@ -21,7 +21,8 @@ function FilterButton({ stateFunc, stateVar, icon, type }) {
     <Tooltip label={"Show projects with the " + type + " tag"}>
       <IconButton
         aria-label={"filter " + type}
-        size="lg"
+        size="md"
+        fontSize="2xl"
         icon={icon}
         colorScheme={stateVar ? "green" : "gray"}
         onClick={stateFunc}
@@ -47,13 +48,13 @@ export function ProjectsList({ projects }) {
 
   return (
     <VStack spacing={7} alignItems="flex-start">
-      <Flex pt={3} w="100%">
+      <Flex pt={3} w="100%" direction={{base: "column", md: "row"}}>
         <Box>
           <Heading as="h2">Projects</Heading>
         </Box>
 
         <Spacer />
-        <HStack spacing={3}>
+        <HStack spacing={3} pt={{base: 4, md: 0}}>
           <FilterButton
             stateFunc={() => setBackendFilter(!backendFilter)}
             stateVar={backendFilter}
@@ -90,12 +91,11 @@ export function ProjectsList({ projects }) {
       <SimpleGrid spacing={{ base: 4, md: 12 }} columns={{ base: 1, lg: 2 }}>
         {projects
           .filter(({ stack }) => {
-
-            
-            if (!filterValues.length){
+            if (!filterValues.length) {
               return true;
-            }
-            else if (stack.categories.some(value => filterValues.includes(value))){
+            } else if (
+              stack.categories.some((value) => filterValues.includes(value))
+            ) {
               return true;
             }
             return false;
