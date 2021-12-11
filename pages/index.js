@@ -14,6 +14,7 @@ export default function Home() {
         align="center"
         direction="column"
         textAlign="center"
+        pb={{base: 2, md: 10}}
       >
         <Avatar
           bg={useColorModeValue("black", "white")}
@@ -26,7 +27,7 @@ export default function Home() {
         />
         <CyberpunkText text={"Hi, I'm David."} />
       </Flex>
-      <AboutSection />
+      <AboutSection/>
       <Flex
         direction="column"
         m="0 auto"
