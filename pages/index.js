@@ -32,7 +32,6 @@ export default function Home() {
         m="0 auto"
         width={{base: "90%", md: "80%"}}
         pb={{ base: 24, md: 16 }}
-        pt={8}
       >
         <ProjectsList projects={projects} />
       </Flex>
