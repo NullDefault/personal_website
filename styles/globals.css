@@ -6,6 +6,19 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+.bg-container {
+  background-image: url("../public/doodles.svg") !important;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  opacity: 0.1;
+  background-attachment: fixed;
+  background-position: left top;
+  position: absolute;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -16,7 +29,9 @@ a {
 }
 
 .decoder-text__glyph {
-  color: #C70025;
-  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "ＭＳ ゴシック" , "MS Gothic", "Noto Sans CJK JP", TakaoPGothic, sans-serif;
+  color: #c70025;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka,
+    メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "ＭＳ ゴシック",
+    "MS Gothic", "Noto Sans CJK JP", TakaoPGothic, sans-serif;
   line-height: 0;
 }

@@ -16,6 +16,7 @@ import {
   Text,
   Wrap,
   WrapItem,
+  useColorModeValue,
 } from "@chakra-ui/react";
 import {
   AiFillGithub,
@@ -69,17 +70,19 @@ export function ProjectCard({
   const frameworks = (stack.frameworks ?? []).join(", ");
   const languages = (stack.languages ?? []).join(", ");
   const otherTech = (stack.otherTech ?? []).join(", ");
+  const bg = useColorModeValue("white", "#222222");
 
   return (
     <Stack
       spacing={5}
       padding={5}
       direction="column"
+      background={bg}
       borderWidth={0.5}
       {...rest}
     >
       <Box w="100%">
-        <Carousel slides={slides}/>
+        <Carousel slides={slides} />
       </Box>
       <Stack
         spacing={2}
