@@ -70,7 +70,7 @@ export function ProjectCard({
   const frameworks = (stack.frameworks ?? []).join(", ");
   const languages = (stack.languages ?? []).join(", ");
   const otherTech = (stack.otherTech ?? []).join(", ");
-  const bg = useColorModeValue("white", "#222222");
+  const bg = useColorModeValue("#FFFAFA", "#222222");
 
   return (
     <Stack

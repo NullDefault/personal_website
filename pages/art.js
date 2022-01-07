@@ -6,12 +6,15 @@ import {
   Skeleton,
   Box,
   Text,
+  useColorModeValue,
 } from "@chakra-ui/react";
 import PageTransition from "../components/structural/PageTransition";
 import art from "../data/art.json";
 import shuffle from "../functions/shuffle";
 
 export default function Art() {
+  const bg = useColorModeValue("#FFFAFA", "#222222");
+
   return (
     <PageTransition>
       <Flex
@@ -26,9 +29,14 @@ export default function Art() {
           justify="center"
           spacing={{ base: "0rem", md: "7rem" }}
         >
-          {shuffle(art).map(({ id, title, image, description, medium }) => {
+          {art.map(({ id, title, image, description, medium }) => {
             return (
-              <WrapItem key={id} role="group" position="relative">
+              <WrapItem
+                key={id}
+                role="group"
+                position="relative"
+                background={bg}
+              >
                 <Image
                   maxW={{ base: "350px", md: "1000px" }}
                   m={{ base: "10px", md: "" }}
