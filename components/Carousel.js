@@ -106,7 +106,7 @@ const Carousel = ({ slides }) => {
               </Box>
             ))}
           </Flex>
-          {slidesCount !== 1 ? (
+          {slidesCount !== 1 && (
             <div>
               <Text
                 {...arrowStyles}
@@ -125,10 +125,8 @@ const Carousel = ({ slides }) => {
                 &#10095;
               </Text>{" "}
             </div>
-          ) : (
-            <div />
           )}
-          {slidesCount !== 1 ? (
+          {slidesCount !== 1 && (
             <HStack justify="center" pos="absolute" bottom="8px" w="full">
               {Array.from({ length: slidesCount }).map((_, slide) => (
                 <Box
@@ -147,8 +145,6 @@ const Carousel = ({ slides }) => {
                 />
               ))}
             </HStack>
-          ) : (
-            <div />
           )}
         </Flex>
       </Flex>

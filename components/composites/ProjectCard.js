@@ -101,7 +101,7 @@ export function ProjectCard({
             <Heading as="strong" textAlign="left" fontSize={[22, 32]}>
               {title}
             </Heading>
-            {githubUrl ? (
+            {githubUrl && (
               <Link
                 href={githubUrl}
                 title="See the project on GitHub"
@@ -113,8 +113,8 @@ export function ProjectCard({
               >
                 <AiFillGithub>{githubUrl}</AiFillGithub>
               </Link>
-            ) : null}
-            {liveUrl ? (
+            )}
+            {liveUrl && (
               <Link
                 href={liveUrl}
                 title="See project live version"
@@ -126,7 +126,7 @@ export function ProjectCard({
               >
                 <AiOutlineLink>{liveUrl}</AiOutlineLink>
               </Link>
-            ) : null}
+            )}
           </Stack>
           <Wrap spacing={2} my="2%">
             {stack.categories.map((category) => (

@@ -2,15 +2,15 @@ import {
   IconButton,
   useColorMode,
   useColorModeValue,
-  Image
+  Image,
 } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 
 export const ColorModeSwitch = (props) => {
   const { toggleColorMode } = useColorMode();
   const text = useColorModeValue("dark", "light");
-  const sun = () => (<Image src="/sol.svg"/>);
-  const moon = () => (<Image src="/luna.svg"/>);
+  const sun = () => <Image src="/sol.svg" />;
+  const moon = () => <Image src="/luna.svg" />;
   const SwitchIcon = useColorModeValue(sun, moon);
 
   return (

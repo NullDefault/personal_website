@@ -6,7 +6,7 @@ import shuffle from "../../functions/shuffle";
 
 const AboutSection = () => (
   <VStack minH="100vh" spacing={8} fontSize="2xl" py={{ base: 16, md: 6 }}>
-    <Flex align="start" direction={{base: "column", md: "row"}}>
+    <Flex align="start" direction={{ base: "column", md: "row" }}>
       <Section>
         <VStack align="start">
           <Heading>About</Heading>
@@ -41,7 +41,7 @@ const AboutSection = () => (
           </Text>
         </VStack>
       </Section>
-      <Section pt={{base: 16, md: 0}}>
+      <Section pt={{ base: 16, md: 0 }}>
         <VStack align="stretch" spacing={4}>
           <Heading>Work</Heading>
           <Text>
@@ -76,16 +76,16 @@ const AboutSection = () => (
               here
             </Link>{" "}
             or explore my projects{" "}
-            <Link color="blue.500" href="/portfolio">
-              at this page
+            <Link color="blue.500" href="#projects">
+              below
             </Link>
             .
           </Text>
         </VStack>
       </Section>
     </Flex>
-    <Flex align="start" direction={{base: "column", md: "row"}}>
-      <Section pt={{base: 16, md: 0}}>
+    <Flex align="start" direction={{ base: "column", md: "row" }}>
+      <Section pt={{ base: 16, md: 0 }}>
         <VStack align="stretch" spacing={4} pb={4}>
           <Heading>Tech I Know</Heading>
           <Wrap>
@@ -95,7 +95,7 @@ const AboutSection = () => (
           </Wrap>
         </VStack>
       </Section>
-      <Section pt={{base: 16, md: 0}}>
+      <Section pt={{ base: 16, md: 0 }}>
         <VStack align="stretch" spacing={4} pb={4}>
           <Heading>Things I Like</Heading>
           <Wrap>

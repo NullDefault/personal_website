@@ -7,7 +7,13 @@ import { useState } from "react";
 const MenuItems = (props) => {
   const { children, isLast, to = "/", ...rest } = props;
   return (
-    <Link href={to} fontSize={22} _hover={{ fontSize: 28, color: "blue.400" }} _focus={{}} {...rest}>
+    <Link
+      href={to}
+      fontSize={22}
+      _hover={{ fontSize: 28, color: "blue.400" }}
+      _focus={{}}
+      {...rest}
+    >
       <Text
         mb={{ base: isLast ? 0 : 8, sm: 0 }}
         mr={{ base: 0, sm: isLast ? 0 : 8 }}
@@ -47,7 +53,7 @@ const Header = (props) => {
 
       <Box
         display={{ base: show ? "block" : "none", md: "block" }}
-        pb={{base: show ? 8 : 0}}
+        pb={{ base: show ? 8 : 0 }}
         flexBasis={{ base: "100%", md: "auto" }}
       >
         <Flex
