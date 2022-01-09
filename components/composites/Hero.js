@@ -7,7 +7,6 @@ import {
   Link,
   Stack,
 } from "@chakra-ui/react";
-import Tilt from "react-tilt";
 import CyberpunkText from "../CyberpunkText";
 import { useRouter } from "next/router";
 import { motion } from "framer-motion";
@@ -75,9 +74,7 @@ export default function Hero({
         mb={{ base: 24, md: 0 }}
         ml={{ base: 0, md: 24 }}
       >
-        <Tilt className="Tilt" options={{ max: 25 }}>
-          <Image src={image} rounded="1rem" shadow="dark-lg" bg="white" />
-        </Tilt>
+        <Image src={image} rounded="1rem" shadow="dark-lg" bg="white" />
       </Box>
     </Flex>
   );

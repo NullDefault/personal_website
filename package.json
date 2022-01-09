@@ -18,8 +18,7 @@
     "popmotion": "8.7.5",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-icons": "^4.2.0",
-    "react-tilt": "^0.1.4"
+    "react-icons": "^4.2.0"
   },
   "devDependencies": {
     "prettier": "^2.2.1"
