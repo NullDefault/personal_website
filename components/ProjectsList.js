@@ -10,7 +10,7 @@ import {
   HStack,
 } from "@chakra-ui/react";
 import { useState } from "react";
-import { ProjectCard } from "./ProjectCard";
+import ProjectCard from "./composites/ProjectCard";
 import { AiFillDatabase, AiOutlineFolderView } from "react-icons/ai";
 import { SiMoleculer } from "react-icons/si";
 import { BiGame } from "react-icons/bi";

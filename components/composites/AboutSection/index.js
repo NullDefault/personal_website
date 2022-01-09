@@ -1,8 +1,8 @@
 import { Flex, VStack, Text, Wrap, Link, Heading } from "@chakra-ui/react";
-import Section from "../structural/Section";
-import aboutData from "../../data/about.json";
-import InterestTag from "../InterestTag";
-import shuffle from "../../functions/shuffle";
+import Section from "../../structural/Section";
+import aboutData from "../../../data/about.json";
+import InterestTag from "./InterestTag";
+import shuffle from "../../../functions/shuffle";
 
 const AboutSection = () => (
   <VStack minH="100vh" spacing={8} fontSize="2xl" py={{ base: 16, md: 6 }}>

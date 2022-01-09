@@ -7,7 +7,7 @@ import {
   Link,
   Stack,
 } from "@chakra-ui/react";
-import CyberpunkText from "../CyberpunkText";
+import CyberpunkText from "./CyberpunkText";
 import { useRouter } from "next/router";
 import { motion } from "framer-motion";
 

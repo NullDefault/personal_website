@@ -1,5 +1,5 @@
 import { Flex, HStack, VStack, Image } from "@chakra-ui/react";
-import { FooterIcon } from "../FooterIcon";
+import { FooterIcon } from "./FooterIcon";
 
 export const Footer = (props) => (
   <Flex as="footer" py="5rem" mt="4rem" bg="black" color="white" {...props}>
