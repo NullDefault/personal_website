@@ -1,6 +1,6 @@
 // 1. import `extendTheme` function
 import { extendTheme } from "@chakra-ui/react";
-import { mode } from '@chakra-ui/theme-tools';
+import { mode } from "@chakra-ui/theme-tools";
 // 2. Add your color mode config
 const config = {
   initialColorMode: "light",
@@ -12,10 +12,10 @@ const theme = extendTheme({
   styles: {
     global: (props) => ({
       body: {
-        bg: mode('white', '#222222')(props),
-        color: mode('black', '#DEE4E7')(props),
+        bg: mode("white", "#222222")(props),
+        color: mode("black", "#FFFAFA")(props),
       },
-    })
-  }
+    }),
+  },
 });
 export default theme;

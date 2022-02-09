@@ -10,7 +10,7 @@ import {
   HStack,
 } from "@chakra-ui/react";
 import { useState } from "react";
-import { ProjectCard } from "./ProjectCard";
+import ProjectCard from "./composites/ProjectCard";
 import { AiFillDatabase, AiOutlineFolderView } from "react-icons/ai";
 import { SiMoleculer } from "react-icons/si";
 import { BiGame } from "react-icons/bi";
@@ -48,13 +48,15 @@ export function ProjectsList({ projects }) {
 
   return (
     <VStack spacing={7} alignItems="flex-start">
-      <Flex pt={3} w="100%" direction={{base: "column", md: "row"}}>
+      <Flex pt={3} w="100%" direction={{ base: "column", md: "row" }}>
         <Box>
-          <Heading as="h2">Projects</Heading>
+          <Heading as="h2" id="projects">
+            Projects
+          </Heading>
         </Box>
 
         <Spacer />
-        <HStack spacing={3} pt={{base: 4, md: 0}}>
+        <HStack spacing={3} pt={{ base: 4, md: 0 }}>
           <FilterButton
             stateFunc={() => setBackendFilter(!backendFilter)}
             stateVar={backendFilter}

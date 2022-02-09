@@ -7,6 +7,7 @@ import { ChakraWrapper } from "../components/structural/ChakraWrapper";
 function MyApp({ Component, pageProps }) {
   return (
     <ChakraWrapper cookies={pageProps.cookies}>
+      <div className="bg-container" />
       <Head>
         <link rel="shortcut icon" href="/favicon.png" />
         <title>NullDefault</title>
