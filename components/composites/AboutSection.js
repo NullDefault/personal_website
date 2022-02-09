@@ -41,7 +41,7 @@ const AboutSection = () => (
           </Text>
         </VStack>
       </Section>
-      <Section pt={{base: 16, md: 0}}>
+      <Section pt={{ base: 16, md: 0 }}>
         <VStack align="stretch" spacing={4}>
           <Heading>Work</Heading>
           <Text>
@@ -84,8 +84,8 @@ const AboutSection = () => (
         </VStack>
       </Section>
     </Flex>
-    <Flex align="start" direction={{base: "column", md: "row"}}>
-      <Section pt={{base: 16, md: 0}}>
+    <Flex align="start" direction={{ base: "column", md: "row" }}>
+      <Section pt={{ base: 16, md: 0 }}>
         <VStack align="stretch" spacing={4} pb={4}>
           <Heading>Tech I Know</Heading>
           <Wrap>
@@ -95,7 +95,7 @@ const AboutSection = () => (
           </Wrap>
         </VStack>
       </Section>
-      <Section pt={{base: 16, md: 0}}>
+      <Section pt={{ base: 16, md: 0 }}>
         <VStack align="stretch" spacing={4} pb={4}>
           <Heading>Things I Like</Heading>
           <Wrap>
