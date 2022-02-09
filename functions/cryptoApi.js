@@ -1,10 +1,10 @@
 const symbol_dict = {
-    Ethereum: "ETH",
-    Bitcoin: "BTC",
-    Cardano: "ADA"
-  };
+  Ethereum: "ETH",
+  Bitcoin: "BTC",
+  Cardano: "ADA",
+};
 
-const getKrakenData = async (currency) => {
+const getKrakenData = async (currency, setData) => {
   const response = await fetch(
     "https://api.kraken.com/0/public/Ticker?pair=" +
       symbol_dict[currency] +
@@ -19,7 +19,7 @@ const getKrakenData = async (currency) => {
   let buy = resJson[dataKey].a[0];
   let sell = resJson[dataKey].b[0];
 
-  return { buy, sell };
+  setData({ buy, sell });
 };
 
 export { getKrakenData };

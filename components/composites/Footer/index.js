@@ -1,19 +1,18 @@
 import { Flex, HStack, VStack, Image } from "@chakra-ui/react";
-import { getKrakenData } from "../../functions/cryptoApi";
-import { FooterIcon } from "../FooterIcon";
+import { getKrakenData } from "../../../functions/cryptoApi";
+import { FooterIcon } from "./FooterIcon";
 import { useState, useEffect } from "react";
+import { CryptoStats } from "./CryptoStats";
 
 export const Footer = (props) => {
-  const [loading, setLoading] = useState(true);
   const [btc, setBTC] = useState(null);
   const [eth, setETH] = useState(null);
   const [ada, setADA] = useState(null);
 
   useEffect(() => {
-    setBTC(getKrakenData("Bitcoin"));
-    setETH(getKrakenData("Ethereum"));
-    setADA(getKrakenData("Cardano"));
-    setLoading(false);
+    getKrakenData("Bitcoin", setBTC);
+    getKrakenData("Ethereum", setETH);
+    getKrakenData("Cardano", setADA);
   }, []);
 
   return (
@@ -29,14 +28,17 @@ export const Footer = (props) => {
           w={["40vw", "20vw"]}
           style={{ WebkitFilter: "invert(1)", filter: "invert(1)" }}
         />
+        <Flex
+          direction={["column", "row"]}
+          alignItems="center"
+          justifyContent="center"
+          pt={8}
+        >
+          {btc && <CryptoStats data={btc} currency={"bitcoin"} />}
+          {eth && <CryptoStats data={eth} currency={"ethereum"} />}
+          {ada && <CryptoStats data={ada} currency={"cardano"} />}
+        </Flex>
       </VStack>
-      {!loading && (
-        <HStack>
-          <div>{btc.buy}</div>
-          <div>{eth.buy}</div>
-          <div>{ada.buy}</div>
-        </HStack>
-      )}
     </Flex>
   );
 };
