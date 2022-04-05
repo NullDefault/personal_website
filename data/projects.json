@@ -163,6 +163,33 @@
   },
   {
     "id": 6,
+    "title": "NFTera",
+    "liveUrl": "https://nftera.herokuapp.com/",
+    "githubUrl": "https://github.com/NullDefault/nftera",
+    "description": "A project about procedural art, insects, and non-fungible tokens (TODO).",
+    "slides": [
+      {
+        {
+          "img": "nftera/mainview.png"
+        },
+        {
+          "img": "nftera/bugs.png"
+        },
+        {
+          "img": "nftera/parttable.png"
+        }
+      }
+    ],
+    "stack": {
+      "id": 6,
+      "languages": ["JavaScript"],
+      "frameworks": ["React.js"],
+      "otherTech": ["ChakraUI"],
+      "categories": ["Frontend", "Simulation", "Game"]
+    }
+  }
+  {
+    "id": 7,
     "title": "Portfolio",
     "liveUrl": "https://nulldefault.com/",
     "githubUrl": "https://github.com/NullDefault/personal_website",
@@ -173,7 +200,7 @@
       }
     ],
     "stack": {
-      "id": 6,
+      "id": 7,
       "languages": ["JavaScript"],
       "frameworks": ["React.js", "Next.js"],
       "otherTech": ["ChakraUI"],
