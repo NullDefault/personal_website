@@ -169,15 +169,13 @@
     "description": "A project about procedural art, insects, and non-fungible tokens (TODO).",
     "slides": [
       {
-        {
-          "img": "nftera/mainview.png"
-        },
-        {
-          "img": "nftera/bugs.png"
-        },
-        {
-          "img": "nftera/parttable.png"
-        }
+        "img": "nftera/mainview.png"
+      },
+      {
+        "img": "nftera/bugs.png"
+      },
+      {
+        "img": "nftera/parttable.png"
       }
     ],
     "stack": {
@@ -187,7 +185,7 @@
       "otherTech": ["ChakraUI"],
       "categories": ["Frontend", "Simulation", "Game"]
     }
-  }
+  },
   {
     "id": 7,
     "title": "Portfolio",
