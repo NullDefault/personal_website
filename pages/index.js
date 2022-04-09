@@ -25,7 +25,7 @@ export default function Home() {
           w="240px"
           h="240px"
         />
-        <CyberpunkText text={"Hi, I'm David."} />
+        <CyberpunkText text={"Hi, I`m David."} />
       </Flex>
       <AboutSection />
       <Flex
