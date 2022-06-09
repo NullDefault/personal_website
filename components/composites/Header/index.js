@@ -66,6 +66,7 @@ const Header = (props) => {
           >
             <MenuItems to="/">Home</MenuItems>
             <MenuItems to="/art">Art</MenuItems>
+            <MenuItems to="/thoughts">Thoughts</MenuItems>
             <ColorModeSwitch />
           </Flex>
         </Box>

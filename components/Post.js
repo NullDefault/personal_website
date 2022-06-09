@@ -1,19 +1,21 @@
-import Image from "next/image";
 import {
   Box,
   Center,
   Heading,
   Text,
   Stack,
-  Avatar,
   useColorModeValue,
 } from "@chakra-ui/react";
+import ReactMarkdown from "react-markdown";
 
 export default function Post({ blog }) {
+  const parseFirebaseMarkdownString = (str) => {
+    return str.replace(/\\n/g, "\n");
+  };
   return (
     <Center py={6}>
       <Box
-        maxW={"445px"}
+        minW={"445px"}
         w={"full"}
         bg={useColorModeValue("white", "gray.900")}
         boxShadow={"2xl"}
@@ -22,23 +24,12 @@ export default function Post({ blog }) {
         overflow={"hidden"}
       >
         <Stack>
-          <Text
-            color={"green.500"}
-            textTransform={"uppercase"}
-            fontWeight={800}
-            fontSize={"sm"}
-            letterSpacing={1.1}
-          >
-            {blog.category}
-          </Text>
-          <Heading
-            color={useColorModeValue("gray.700", "white")}
-            fontSize={"2xl"}
-            fontFamily={"body"}
-          >
+          <Heading color={"green.500"} fontSize={"5xl"} letterSpacing={1.5}>
             {blog.title}
           </Heading>
-          <Text color={"gray.500"}>{blog.md_content}</Text>
+          <ReactMarkdown
+            children={parseFirebaseMarkdownString(blog.md_content)}
+          />
         </Stack>
         <Stack direction={"column"} spacing={0} fontSize={"sm"}>
           <Text color={"gray.500"}>{blog.added.toDate().toUTCString()}</Text>
