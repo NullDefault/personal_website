@@ -4,6 +4,7 @@ import PageTransition from "../components/structural/PageTransition";
 import { Flex } from "@chakra-ui/react";
 import Post from "../components/Post";
 import { firebaseApp } from "../firebase";
+import { getStorage } from "firebase/storage";
 
 export default function Thoughts() {
   const [blogs, blogsLoading, blogsError] = useCollection(
@@ -12,6 +13,8 @@ export default function Thoughts() {
       snapshotListenOptions: { includeMetadataChanges: true },
     }
   );
+  const storage = getStorage();
+
   return (
     <PageTransition>
       <Flex
@@ -26,7 +29,7 @@ export default function Thoughts() {
         {blogsLoading && <span>Collection: Loading...</span>}
         {!blogsLoading &&
           blogs &&
-          blogs.docs.map((obj) => <Post blog={obj.data()} />)}
+          blogs.docs.map((obj) => <Post blog={obj.data()} storage={storage} />)}
       </Flex>
     </PageTransition>
   );

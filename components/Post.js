@@ -11,11 +11,35 @@ import {
   Link,
 } from "@chakra-ui/react";
 import ReactMarkdown from "react-markdown";
+import { ref, getDownloadURL } from "firebase/storage";
+import { useEffect, useState } from "react";
 
-export default function Post({ blog }) {
-  const parseFirebaseMarkdownString = (str) => {
-    return str.replace(/\\n/g, "\n");
-  };
+export default function Post({ blog, storage }) {
+  const mdFileReference = ref(storage, blog.md_file);
+  const [mdContent, setMdContent] = useState();
+
+  useEffect(() => {
+    getDownloadURL(mdFileReference)
+      .then((url) => {
+        fetch(url)
+          .then((response) => response.text())
+          .then((result) => setMdContent(result));
+      })
+      .catch((error) => {
+        switch (error.code) {
+          case "storage/object-not-found":
+            console.log("Object not found!");
+            break;
+          case "storage/unauthorized":
+            console.log("User doesn't have permission to access the object");
+            break;
+          case "storage/unknown":
+            console.log(error.code);
+            console.log("Unknown error");
+            break;
+        }
+      });
+  });
 
   return (
     <Center py={6}>
@@ -35,7 +59,7 @@ export default function Post({ blog }) {
           </Heading>
           <Divider py={4} />
           <ReactMarkdown
-            children={parseFirebaseMarkdownString(blog.md_content)}
+            children={mdContent}
             components={{
               ul: ({ node, ...props }) => (
                 <Box pl="18px" display="block" {...props} />
