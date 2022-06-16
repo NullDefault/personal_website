@@ -5,6 +5,7 @@ import { Flex, Stack, Skeleton, useColorModeValue } from "@chakra-ui/react";
 import Post from "../components/Post";
 import { firebaseApp } from "../firebase";
 import { getStorage } from "firebase/storage";
+import PostCard from "../components/PostCard";
 
 export default function Thoughts() {
   const [blogs, blogsLoading, blogsError] = useCollection(
@@ -29,9 +30,7 @@ export default function Thoughts() {
         <Stack w="95%" spacing={8}>
           {!blogsLoading &&
             blogs &&
-            blogs.docs.map((obj) => (
-              <Post blog={obj.data()} storage={storage} />
-            ))}
+            blogs.docs.map((obj) => <PostCard title={obj.data().title} />)}
         </Stack>
       </Flex>
     </PageTransition>
