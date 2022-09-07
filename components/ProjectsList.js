@@ -47,11 +47,11 @@ export function ProjectsList({ projects }) {
   ];
 
   return (
-    <VStack spacing={7} alignItems="flex-start">
+    <VStack pt={16} pb={40} spacing={6} alignItems="flex-start">
       <Flex pt={3} w="100%" direction={{ base: "column", md: "row" }}>
         <Box>
           <Heading as="h2" id="projects">
-            Projects
+            Project Highlights
           </Heading>
         </Box>
 

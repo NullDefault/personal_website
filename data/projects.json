@@ -51,65 +51,6 @@
     }
   },
   {
-    "id": 2,
-    "title": "Volog",
-    "githubUrl": "https://github.com/DrewUniversityCS/Volog",
-    "description": "A full-stack web application for recording, managing, and analyzing volunteer engagement and hours. Features a fully decoupled React frontend and Django REST API backend.",
-    "slides": [
-      {
-        "img": "volog/login.png"
-      },
-      {
-        "img": "volog/profile.png"
-      },
-      {
-        "img": "volog/statsView.png"
-      },
-      {
-        "img": "volog/form.png"
-      },
-
-      {
-        "img": "volog/feedbackForm.png"
-      }
-    ],
-    "stack": {
-      "id": 2,
-      "languages": ["JavaScript", "Python"],
-      "frameworks": ["React.js", "Django"],
-      "otherTech": ["MySQL", "Bootstrap", "Material Design"],
-      "categories": ["Frontend", "Backend"]
-    }
-  },
-  {
-    "id": 3,
-    "title": "Drew Review",
-    "liveUrl": "https://drewreview.vercel.app/",
-    "githubUrl": "https://github.com/DrewUniversityCS/DrewReview",
-    "description": "Prototype website for The Drew Review, the annual research journal for the undergraduates of the Drew University College of Liberal Arts. Designed to facilitate my duties as the Senior Corresponding Editor and to allow the public to explore and read journal issues from past years.",
-    "slides": [
-      {
-        "img": "drewreview/main.png"
-      },
-      {
-        "img": "drewreview/application.png"
-      },
-      {
-        "img": "drewreview/formPreamble.png"
-      },
-      {
-        "img": "drewreview/paperReview.png"
-      }
-    ],
-    "stack": {
-      "id": 3,
-      "languages": ["JavaScript"],
-      "frameworks": ["React.js", "Next.js"],
-      "otherTech": ["ChakraUI"],
-      "categories": ["Frontend"]
-    }
-  },
-  {
     "id": 4,
     "title": "TEDxDrewUniversity Website",
     "liveUrl": "https://tedxdrewuniversity.com/",

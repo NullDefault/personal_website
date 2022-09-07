@@ -18,12 +18,16 @@
     "eSports",
     "Spiritual Naturalism",
     "Optimistic Nihilism",
-    "Stoicism"
+    "Stoicism",
+    "Alternative History",
+    "Traveling",
+    "Game Theory"
   ],
   "tech": [
     "Python",
     "Java",
     "JavaScript",
+    "Typescript",
     "Dart",
     "R",
     "C#",
@@ -35,14 +39,17 @@
     "Heroku",
     "Unity",
     "Django",
+    "Spring",
     "Node.js",
     "React.js",
+    "Angular.js",
     "Next.js",
     "ChakraUI",
     "TailwindCSS",
     "Flutter",
     "Firebase",
     "Tableau",
-    "Docker"
+    "Docker",
+    "Cypress"
   ]
 }
