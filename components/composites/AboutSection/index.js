@@ -46,7 +46,7 @@ const AboutSection = () => (
         <VStack align="center" spacing={4} pb={4}>
           <Heading>Things I Like</Heading>
           <Wrap>
-            {shuffle(aboutData.likes).map((el, index) => (
+            {aboutData.likes.map((el, index) => (
               <InterestTag name={el} key={index} like />
             ))}
           </Wrap>

@@ -4,7 +4,6 @@ import {
   useColorModeValue,
   Image,
 } from "@chakra-ui/react";
-import { motion } from "framer-motion";
 
 export const ColorModeSwitch = (props) => {
   const { toggleColorMode } = useColorMode();
@@ -14,7 +13,6 @@ export const ColorModeSwitch = (props) => {
   const SwitchIcon = useColorModeValue(sun, moon);
 
   return (
-    <motion.button whileHover={{ scale: 1.3 }} whileTap={{ scale: 0.9 }}>
       <IconButton
         {...props}
         size="md"
@@ -28,6 +26,5 @@ export const ColorModeSwitch = (props) => {
         _focus={{}}
         {...props}
       />
-    </motion.button>
   );
 };
