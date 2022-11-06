@@ -4,7 +4,7 @@ const iconData = {
   email: {
     color: "red",
     icon: <FaEnvelope />,
-    ref: "mailto:davisha999@gmail.com",
+    ref: "mailto:david@nulldefault.com",
   },
   LinkedIn: {
     color: "linkedin",
