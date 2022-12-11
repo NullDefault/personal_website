@@ -8,8 +8,8 @@ import {
 export const ColorModeSwitch = (props) => {
   const { toggleColorMode } = useColorMode();
   const text = useColorModeValue("dark", "light");
-  const sun = () => <Image src="/sol.svg" />;
-  const moon = () => <Image src="/luna.svg" />;
+  const sun = () => <Image src="/icons/sol.svg" />;
+  const moon = () => <Image src="/icons/luna.svg" />;
   const SwitchIcon = useColorModeValue(sun, moon);
 
   return (
