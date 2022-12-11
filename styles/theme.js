@@ -17,5 +17,10 @@ const theme = extendTheme({
       },
     }),
   },
+  fonts: {
+    heading: `'HealTheWeb', sans-serif`,
+    body: `'HealTheWeb', sans-serif`,
+  },
 });
+
 export default theme;

@@ -4,6 +4,7 @@ import {
   localStorageManager,
 } from "@chakra-ui/react";
 import theme from "../../styles/theme";
+import Fonts from "../../styles/Fonts";
 
 export function ChakraWrapper({ cookies, children }) {
   // b) Pass `colorModeManager` prop
@@ -13,6 +14,7 @@ export function ChakraWrapper({ cookies, children }) {
       : localStorageManager;
   return (
     <ChakraProvider colorModeManager={colorModeManager} theme={theme}>
+      <Fonts />
       {children}
     </ChakraProvider>
   );
