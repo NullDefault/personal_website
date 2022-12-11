@@ -107,7 +107,7 @@
     "title": "NFTera",
     "liveUrl": "https://nftera.herokuapp.com/",
     "githubUrl": "https://github.com/NullDefault/nftera",
-    "description": "A project about procedural art, insects, and non-fungible tokens (TODO).",
+    "description": "A project about procedural art, insects, and non-fungible tokens.",
     "slides": [
       {
         "img": "nftera/mainview.png"

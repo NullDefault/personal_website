@@ -1,4 +1,4 @@
-import { Badge, Icon, Box } from "@chakra-ui/react";
+import { Badge, Icon, Box, Stack } from "@chakra-ui/react";
 import { AiFillDatabase, AiOutlineFolderView } from "react-icons/ai";
 import { SiMoleculer } from "react-icons/si";
 import { BiGame } from "react-icons/bi";
@@ -15,9 +15,9 @@ function CategoryBadge(category) {
 
   return (
     <Badge colorScheme="teal" variant="outline" size="lg" fontSize={18}>
-      <Box p={1}>
-        {category} {iconDict[category]}
-      </Box>
+      <Stack p={2} align="center" direction="row">
+        <Box h="100%">{category}</Box> <Box h="100%">{iconDict[category]}</Box>
+      </Stack>
     </Badge>
   );
 }

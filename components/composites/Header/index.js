@@ -9,8 +9,8 @@ const MenuItems = (props) => {
   return (
     <Link
       href={to}
-      fontSize={22}
-      _hover={{ fontSize: 28, color: "blue.400" }}
+      fontSize={32}
+      _hover={{ fontSize: 36, color: "blue.400" }}
       _focus={{}}
       {...rest}
     >

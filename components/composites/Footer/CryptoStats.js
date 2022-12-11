@@ -7,8 +7,8 @@ export const CryptoStats = ({ currency, data }) => {
         <Image w={["8vw", "4vw"]} src={`/crypto/${currency}.png`} />
       </Box>
       <VStack pl={2}>
-        <Badge colorScheme="green">Buy: {data.buy}</Badge>
-        <Badge colorScheme="red">Sell: {data.sell}</Badge>
+        <Badge size="xl" colorScheme="green">Buy: {data.buy}</Badge>
+        <Badge size="xl" colorScheme="red">Sell: {data.sell}</Badge>
       </VStack>
     </HStack>
   );

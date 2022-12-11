@@ -94,7 +94,7 @@ export default function ProjectCard({
             otherTech={otherTech}
           />
         </Stack>
-        <Text variant="regular" textAlign="left">
+        <Text variant="regular" fontSize="xl" textAlign="left">
           {description}
         </Text>
       </Stack>

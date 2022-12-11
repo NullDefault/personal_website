@@ -13,11 +13,11 @@ import ProjectDetailListItem from "./ProjectDetailListItem";
 
 function StackAccordion({ languages, frameworks, otherTech }) {
   return (
-    <Accordion allowToggle width="100%">
+    <Accordion allowToggle width="100%" fontSize="xl">
       <AccordionItem>
         <h2>
           <AccordionButton>
-            <Box flex="1" textAlign="left">
+            <Box flex="1" textAlign="left" fontSize="xl">
               Stack
             </Box>
             <AccordionIcon />
