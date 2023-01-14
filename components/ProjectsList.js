@@ -104,7 +104,7 @@ export function ProjectsList({ projects }) {
           })
           .map(
             (
-              { id, title, stack, liveUrl, githubUrl, slides, description },
+              { id, title, stack, liveUrl, githubUrl, publishUrl, slides, description },
               i,
               arr
             ) => {
@@ -115,6 +115,7 @@ export function ProjectsList({ projects }) {
                   stack={stack}
                   liveUrl={liveUrl}
                   githubUrl={githubUrl}
+                  publishUrl={publishUrl}
                   slides={slides}
                   description={description}
                 />

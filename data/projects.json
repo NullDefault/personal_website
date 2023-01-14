@@ -33,6 +33,7 @@
     "id": 1,
     "title": "Gym Stag Hunt",
     "githubUrl": "https://github.com/NullDefault/Gym-Stag-Hunt",
+    "publishUrl": "https://digitalcollections.drew.edu/UniversityArchives/ThesesAndDissertations/CLA/BA/2022/Nesterov-Rappoport/openaccess/DNesterov-Rappoport.pdf",
     "description": "A custom OpenAI Gym environment that implements various Stag Hunt games for reinforcement learning experiments. Developed as a part of my Honors Thesis on cooperation in multi-agent reinforcement learning.",
     "slides": [
       {

@@ -8,7 +8,7 @@ import {
   WrapItem,
   useColorModeValue,
 } from "@chakra-ui/react";
-import { AiFillGithub, AiOutlineLink } from "react-icons/ai";
+import { AiFillGithub, AiOutlineBook, AiOutlineLink } from "react-icons/ai";
 import Carousel from "../../Carousel";
 import CategoryBadge from "./CategoryBadge";
 import StackAccordion from "./StackAccordion";
@@ -18,6 +18,7 @@ export default function ProjectCard({
   title,
   liveUrl,
   githubUrl,
+  publishUrl,
   description,
   slides,
   ...rest
@@ -80,6 +81,19 @@ export default function ProjectCard({
                 }}
               >
                 <AiOutlineLink>{liveUrl}</AiOutlineLink>
+              </Link>
+            )}
+            {publishUrl && (
+              <Link
+                href={publishUrl}
+                title="See associated publication"
+                isExternal
+                aria-label="See associated publication"
+                _hover={{
+                  color: "red.500",
+                }}
+              >
+                <AiOutlineBook>{publishUrl}</AiOutlineBook>
               </Link>
             )}
           </Stack>
