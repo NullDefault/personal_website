@@ -5,21 +5,16 @@ import { Box } from "@chakra-ui/react";
 
 // prettier-ignore
 const glyphs = [
-    'ア', 'イ', 'ウ', 'エ', 'オ',
-    'カ', 'キ', 'ク', 'ケ', 'コ',
-    'サ', 'シ', 'ス', 'セ', 'ソ',
-    'タ', 'チ', 'ツ', 'テ', 'ト',
-    'ナ', 'ニ', 'ヌ', 'ネ', 'ノ',
-    'ハ', 'ヒ', 'フ', 'ヘ', 'ホ',
-    'マ', 'ミ', 'ム', 'メ', 'モ',
-    'ヤ', 'ユ', 'ヨ', 'ー',
-    'ラ', 'リ', 'ル', 'レ', 'ロ',
-    'ワ', 'ヰ', 'ヱ', 'ヲ', 'ン',
-    'ガ', 'ギ', 'グ', 'ゲ', 'ゴ',
-    'ザ', 'ジ', 'ズ', 'ゼ', 'ゾ',
-    'ダ', 'ヂ', 'ヅ', 'デ', 'ド',
-    'バ', 'ビ', 'ブ', 'ベ', 'ボ',
-    'パ', 'ピ', 'プ', 'ペ', 'ポ',
+  'ア', 'ワ', 'ツ', 'ニ', 'ヨ',
+  'א', 'ת', 'ק', 'ר', 'ע',
+  'А', 'Ж', 'З', 'Ю', 'Я',
+  'マ', 'ユ', 'ラ', 'ヒ', 'ホ',
+  'ס', 'נ', 'ט', 'כ', 'ח',
+  'Α', 'Ψ', 'Ω', 'Γ', 'Φ',
+  'Б', 'Ш', 'Щ', 'Ф', 'Ц',
+  'リ', 'ヱ', 'ム', 'ヘ', 'モ',
+  'ך', 'ם', 'ן', 'ף', 'ץ',
+  'Ъ', 'Э', 'Ё', 'Ї', 'І'
 ];
 
 const CharType = {
@@ -27,13 +22,17 @@ const CharType = {
   Value: "value",
 };
 
+const ANIMATION_STIFFNESS = 4.2;
+const ANIMATION_DAMPING = 4.2;
+const GLYPH_SHOW_RATIO = 0.42;
+
 function glyphShuffle(content, output, position) {
   return content.map((value, index) => {
     if (index < position) {
       return { type: CharType.Value, value };
     }
 
-    if (position % 1 < 0.5) {
+    if (position % 1 < GLYPH_SHOW_RATIO) {
       const rand = Math.floor(Math.random() * glyphs.length);
       return { type: CharType.Glyph, value: glyphs[rand] };
     }
@@ -75,8 +74,8 @@ const CyberpunkText = ({
         spring({
           from: 0,
           to: content.length,
-          stiffness: 5,
-          damping: 3,
+          stiffness: ANIMATION_STIFFNESS,
+          damping: ANIMATION_DAMPING,
         })
       ).start(springValue);
     }
@@ -90,7 +89,7 @@ const CyberpunkText = ({
 
   return (
     <span className={classNames("decoder-text", className)} {...rest}>
-      <Box fontWeight="bold" w={["80vw", "100%"]} fontSize={38}>
+      <Box fontWeight="bold" w={["80vw", "100%"]} fontSize={42} letterSpacing="wider">
         <span aria-hidden className="decoder-text__content" ref={container} />
       </Box>
     </span>

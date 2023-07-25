@@ -21,9 +21,9 @@ export default function Home() {
           size="full"
           loading="eager"
           name="David Nesterov-Rappoport"
-          src="/Portreto.png"
-          w="240px"
-          h="240px"
+          src="/portreto.jpg"
+          w="280px"
+          h="280px"
         />
         <CyberpunkText text={"Hi, I'm David."} />
       </Flex>
